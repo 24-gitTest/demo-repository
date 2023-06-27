@@ -81,6 +81,8 @@
 <img style="margin: 10px" width=80% src="![image](https://github.com/24-gitTest/demo-repository/assets/87430624/c1076bcf-cc4b-4991-83f4-3d0abf6fa3fe)
 " alt="깃허브 프로젝트 캡쳐"/>
 
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/74c0d04e-7339-4b1b-b8f2-4d5d707e8e4b)
+
 - [Create Issue Branch](https://github.com/marketplace/actions/create-issue-branch)
 - 이슈를 생성하면 GitHub Action으로 해당 이슈에 해당하는 브랜치가 자동으로 생성되도록 설정하여 브랜치명을 고민하고 브랜치를 생성하는 시간을 줄였습니다.
     - [브랜치 자동화 설정 상세 내용]([https://github.com/nailedReact/react-app/wiki/%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%9E%90%EB%8F%99%ED%99%94-%EC%84%A4%EC%A0%95-%EB%82%B4%EC%9A%A9](https://github.com/nailedReact/bokgungom-market/wiki/%F0%9F%AA%84-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%9E%90%EB%8F%99%ED%99%94-%EC%84%A4%EC%A0%95-%EB%82%B4%EC%9A%A9))
