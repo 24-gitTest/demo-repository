@@ -1,21 +1,21 @@
 # <span id='top'> 수수마켓</span>
 <img src="https://user-images.githubusercontent.com/105365737/210221033-fe61128b-b5eb-4da2-97ca-7e9d162baad2.png" width="1000" />
 
-> 📎 <a href='https://daengnyang.netlify.app'>배포 URL</a> <br/>
+> 📎 <a href='#'>배포 URL</a> <br/>
 > 
 > <br/>
 > 
 > 이메일 로그인 테스트 계정
->  - ID : `daengnyang@market.com`
->  - Password : `daengnyang2022`
+>  - ID : `susu@market.com`
+>  - Password : `susu2023`
 
 <br/><br/>
  
 ## 1. 서비스 소개
-**가져도댕냥은 반려동물을 사랑하는 팻펨족을 위한 SNS/커뮤니티 서비스입니다.**
-- 반려동물이 쓰던 물건을 중고로 판매/구매할 수 있습니다. <br/>
-- 상품을 판매/구매하지 않아도 일상을 공유하며 즐거운 SNS 활동을 할 수 있습니다. <br/>
-- 반려동물 커뮤니티 서비스를 이용할 수 있습니다. <br/>
+**수수마켓은 예술작품을 사랑하는 사람들을 위한 SNS/커뮤니티 서비스입니다.**
+- 개인의 예술품 및 공예품을 쉽게 사고 팔 수 있습니다. <br/>
+- 상품을 판매/구매하지 않아도 자신의 작품을 공유하며 즐거운 SNS 활동을 할 수 있습니다. <br/>
+-  <br/>
 
 <br/>
 
@@ -25,7 +25,7 @@
 
 ## 2. 팀원 소개
 
-|                                    **FE 강윤정**                                    |                                    **FE 남종태**                                    |                                 **FE 안나별**                                 |                                    **FE 양서진진**                                    |
+|                                    **FE 강윤정**                                    |                                    **FE 남종태**                                    |                                 **FE 안나별**                                 |                                    **FE 양서진**                                    |
 | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
 | <img src="https://avatars.githubusercontent.com/rosamondkim" height=180 width=180> | <img src="https://user-images.githubusercontent.com/105365737/210505937-b42b42ea-2b1f-4b4b-ad39-1cc363a9f7fd.jpg" height=180 width=180> | <img src="https://avatars.githubusercontent.com/sypear" height=180 width=180> | <img src="https://avatars.githubusercontent.com/yedol1" height=180 width=180> |
 |                        [🔗 GitHub](https://github.com/rosamondkim)<br/> 디자인 리더                         |                        [🔗 GitHub](https://github.com/euihokim)<br/> 기획 리더                         |           [🔗 GitHub](https://github.com/sypear)<br/> 프로젝트 매니저          |                        [🔗 GitHub](https://github.com/yedol1)<br/> 개발 리더                         |
