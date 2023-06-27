@@ -77,7 +77,9 @@ prettier: 2.8.8
 
 <br/>
 
-## 📊 프로젝트 진행 상황 관리
+## 4. 프로젝트 관리 및 진행
+
+### 📊 프로젝트 진행 상황 관리
 
 - <a href="https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/issues">🔘 GitHub Issues</a>
     - 간편한 이슈 생성을 위해 이슈 템플릿을 만들어 사용했습니다.
@@ -105,7 +107,7 @@ prettier: 2.8.8
 <br>
 
 
-## 📐 컨벤션
+### 📐 컨벤션
 
 팀원 간의 원활한 소통과 협업을 위해 커밋 컨벤션과, 코드 컨벤션을 만들어 이를 따랐습니다.
 
@@ -178,80 +180,6 @@ prettier: 2.8.8
 
 
 
-## 4. 프로젝트 구조
-* `src/components/` : 서비스에서 사용하는 컴포넌트 (캐러셀, 공통 컴포넌트, 공통 레이아웃)
-* `src/commons/` : 공통컴포넌트 중 UI와 관련된 파일
-* `src/units` : 재사용을 위해 분리한 유틸 파일
-* `src/context/` : 전역 데이터를 공유하기 위해 정의한 Context 파일
-* `src/hooks/` : 재사용을 위해 분리한 Custom Hook
-* `src/img/` : 서비스에서 사용하는 에셋 파일 (폰트, 아이콘, 이미지)
-* `src/library/` : 일반적으로 재사용 가능한 파일(customAxios, imgValidation)
-* `src/pages/` : 공통 컴포넌트를 사용해 만든 페이지
-* `src/routes/` : 페이지 라우팅을 위한 파일
-```
-📦susuMarket
- ┣ 📂public
-   ┗ 📜index.html
- ┣ 📂src
-   ┣ 📂components
-   ┃ ┣ 📂commons
-   ┃ ┃ ┣ 📂button
-   ┃ ┃ ┣ 📂confirmModal
-   ┃ ┃ ┣ 📂dataInput
-   ┃ ┃ ┣ 📂dateFormat
-   ┃ ┃ ┣ 📂errorMessage
-   ┃ ┃ ┣ 📂menuBar
-   ┃ ┃ ┣ 📂newTopHeader
-   ┃ ┃ ┣ 📂postModal
-   ┃ ┃ ┣ 📂topButton
-   ┃ ┃ ┗ 📂topHeader
-   ┃ ┗ 📂units
-   ┃ ┃ ┗ 📂profile
-   ┃ ┃ ┃ ┣ 📂profileInfo
-   ┃ ┃ ┃ ┣ 📂ProfilePost
-   ┃ ┃ ┃ ┗ 📂ProfileProduct
-   ┣ 📂context
-   ┣ 📂hook
-   ┣ 📂img
-   ┣ 📂library
-   ┣ 📂pages
-   ┃ ┣ 📂chat
-   ┃ ┃ ┣ 📂chatList
-   ┃ ┃ ┗ 📂chatRoom
-   ┃ ┣ 📂drawing
-   ┃ ┣ 📂feed
-   ┃ ┃ ┣ 📂post
-   ┃ ┃ ┃ ┣ 📂postDetail
-   ┃ ┃ ┃ ┣ 📂postEdit
-   ┃ ┃ ┃ ┣ 📂postUpload
-   ┃ ┃ ┣ 📂product
-   ┃ ┃ ┃ ┣ 📂productDetail
-   ┃ ┃ ┃ ┣ 📂productEdit
-   ┃ ┃ ┃ ┗ 📂productUpload
-   ┃ ┃ ┗ 📂search
-   ┃ ┣ 📂login
-   ┃ ┃ ┣ 📂loginEmail
-   ┃ ┣ 📂notFound
-   ┃ ┣ 📂profile
-   ┃ ┃ ┣ 📂follow
-   ┃ ┃ ┃ ┣ 📂followers
-   ┃ ┃ ┃ ┗ 📂following
-   ┃ ┃ ┣ 📂profileEdit
-   ┃ ┃ ┗ 📂userProfile
-   ┃ ┣ 📂signup
-   ┃ ┃ ┣ 📂profileSetting
-   ┃ ┃ ┗ 📂userAccount
-   ┃ ┗ 📂splash
-   ┣ 📂routes
-   ┣ 📜App.js
-   ┣ 📜GlobalStyle.js
-   ┗ 📜index.js
-```
-<br/>
-
-<p align="right"><a href="#top">(Top)</a></p>
-
-<br/>
 
 ## 5. Git Branch 전략
 ![GitBranch](https://github.com/24-gitTest/demo-repository/assets/87430624/745e1de4-2428-48f4-b97f-f9af03eae4f3)
@@ -1789,6 +1717,81 @@ const arrayKeyword = COMMA_APPEND_USERNAME.split(',');
 ## 13. 프로젝트 발표 자료 및 시연 영상
 * <a href='https://www.notion.so/likelion/b87bda7d7fb34aefba6de2c75a27c21d'>발표 노션 링크</a>
 	    
+<br/>
+
+<p align="right"><a href="#top">(Top)</a></p>
+
+<br/>
+
+## 14. 프로젝트 구조
+* `src/components/` : 서비스에서 사용하는 컴포넌트 (캐러셀, 공통 컴포넌트, 공통 레이아웃)
+* `src/commons/` : 공통컴포넌트 중 UI와 관련된 파일
+* `src/units` : 재사용을 위해 분리한 유틸 파일
+* `src/context/` : 전역 데이터를 공유하기 위해 정의한 Context 파일
+* `src/hooks/` : 재사용을 위해 분리한 Custom Hook
+* `src/img/` : 서비스에서 사용하는 에셋 파일 (폰트, 아이콘, 이미지)
+* `src/library/` : 일반적으로 재사용 가능한 파일(customAxios, imgValidation)
+* `src/pages/` : 공통 컴포넌트를 사용해 만든 페이지
+* `src/routes/` : 페이지 라우팅을 위한 파일
+```
+📦susuMarket
+ ┣ 📂public
+   ┗ 📜index.html
+ ┣ 📂src
+   ┣ 📂components
+   ┃ ┣ 📂commons
+   ┃ ┃ ┣ 📂button
+   ┃ ┃ ┣ 📂confirmModal
+   ┃ ┃ ┣ 📂dataInput
+   ┃ ┃ ┣ 📂dateFormat
+   ┃ ┃ ┣ 📂errorMessage
+   ┃ ┃ ┣ 📂menuBar
+   ┃ ┃ ┣ 📂newTopHeader
+   ┃ ┃ ┣ 📂postModal
+   ┃ ┃ ┣ 📂topButton
+   ┃ ┃ ┗ 📂topHeader
+   ┃ ┗ 📂units
+   ┃ ┃ ┗ 📂profile
+   ┃ ┃ ┃ ┣ 📂profileInfo
+   ┃ ┃ ┃ ┣ 📂ProfilePost
+   ┃ ┃ ┃ ┗ 📂ProfileProduct
+   ┣ 📂context
+   ┣ 📂hook
+   ┣ 📂img
+   ┣ 📂library
+   ┣ 📂pages
+   ┃ ┣ 📂chat
+   ┃ ┃ ┣ 📂chatList
+   ┃ ┃ ┗ 📂chatRoom
+   ┃ ┣ 📂drawing
+   ┃ ┣ 📂feed
+   ┃ ┃ ┣ 📂post
+   ┃ ┃ ┃ ┣ 📂postDetail
+   ┃ ┃ ┃ ┣ 📂postEdit
+   ┃ ┃ ┃ ┣ 📂postUpload
+   ┃ ┃ ┣ 📂product
+   ┃ ┃ ┃ ┣ 📂productDetail
+   ┃ ┃ ┃ ┣ 📂productEdit
+   ┃ ┃ ┃ ┗ 📂productUpload
+   ┃ ┃ ┗ 📂search
+   ┃ ┣ 📂login
+   ┃ ┃ ┣ 📂loginEmail
+   ┃ ┣ 📂notFound
+   ┃ ┣ 📂profile
+   ┃ ┃ ┣ 📂follow
+   ┃ ┃ ┃ ┣ 📂followers
+   ┃ ┃ ┃ ┗ 📂following
+   ┃ ┃ ┣ 📂profileEdit
+   ┃ ┃ ┗ 📂userProfile
+   ┃ ┣ 📂signup
+   ┃ ┃ ┣ 📂profileSetting
+   ┃ ┃ ┗ 📂userAccount
+   ┃ ┗ 📂splash
+   ┣ 📂routes
+   ┣ 📜App.js
+   ┣ 📜GlobalStyle.js
+   ┗ 📜index.js
+```
 <br/>
 
 <p align="right"><a href="#top">(Top)</a></p>
