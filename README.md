@@ -49,7 +49,6 @@
 |협업 도구|<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white"> <img src="https://img.shields.io/badge/Notion-DBDBDB?style=for-the-badge&logo=Notion&logoColor=white"/> |
 
 
-
 ### 3-2. 기술 스택
 - FE : React v18, Styled-components v5, Axios v1.2.1
 - BE : 제공된 API 사용
@@ -59,7 +58,7 @@
 - 진행 상황 관리(칸반 보드) : <a href='https://github.com/orgs/FRONTENDSCHOOL5/projects/17'>GitHub Projects</a>
 - 이슈 관리 : <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/issues'>GitHub Issues</a>
 - 문서 관리 : <a href='https://www.notion.so/24-PROJECT-3f266a7761914110850c5c06011f7d9c'>Notion</a>
-
+- 디자인 협업 : <a href='https://www.figma.com/file/caUCKc1ySPdwlBg1goXXnM/%EC%88%98%EC%88%98%EB%A7%88%EC%BC%93?type=design&node-id=1-623&t=XWF2qgp9aAPiQpiN-0'>Figma</a>
 - 메신저 : Discord
 
 ### 3-4 Version
