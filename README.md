@@ -230,6 +230,247 @@ prettier: 2.8.8
    └─ 📜 index.jsx
 ```
 
+📦susuMarket
+ ┣ 📂.git
+ ┃ ┣ 📂hooks
+ ┃ ┃ ┣ 📜applypatch-msg.sample
+ ┃ ┃ ┣ 📜commit-msg.sample
+ ┃ ┃ ┣ 📜fsmonitor-watchman.sample
+ ┃ ┃ ┣ 📜post-update.sample
+ ┃ ┃ ┣ 📜pre-applypatch.sample
+ ┃ ┃ ┣ 📜pre-commit.sample
+ ┃ ┃ ┣ 📜pre-merge-commit.sample
+ ┃ ┃ ┣ 📜pre-push.sample
+ ┃ ┃ ┣ 📜pre-rebase.sample
+ ┃ ┃ ┣ 📜pre-receive.sample
+ ┃ ┃ ┣ 📜prepare-commit-msg.sample
+ ┃ ┃ ┣ 📜push-to-checkout.sample
+ ┃ ┃ ┗ 📜update.sample
+ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📜exclude
+ ┃ ┣ 📂logs
+ ┃ ┃ ┣ 📂refs
+ ┃ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┃ ┗ 📜dev
+ ┃ ┃ ┃ ┗ 📂remotes
+ ┃ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜HEAD
+ ┃ ┃ ┗ 📜HEAD
+ ┃ ┣ 📂objects
+ ┃ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📂pack
+ ┃ ┃ ┃ ┣ 📜pack-93a90bb0c4fa86cdde1cfabb70ac019e0305e206.idx
+ ┃ ┃ ┃ ┗ 📜pack-93a90bb0c4fa86cdde1cfabb70ac019e0305e206.pack
+ ┃ ┣ 📂refs
+ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┗ 📜dev
+ ┃ ┃ ┣ 📂remotes
+ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┗ 📜HEAD
+ ┃ ┃ ┗ 📂tags
+ ┃ ┣ 📜config
+ ┃ ┣ 📜description
+ ┃ ┣ 📜HEAD
+ ┃ ┣ 📜index
+ ┃ ┗ 📜packed-refs
+ ┣ 📂public
+ ┃ ┣ 📜favicon.svg
+ ┃ ┗ 📜index.html
+ ┣ 📂src
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📂commons
+ ┃ ┃ ┃ ┣ 📂button
+ ┃ ┃ ┃ ┃ ┗ 📜Button.jsx
+ ┃ ┃ ┃ ┣ 📂confirmModal
+ ┃ ┃ ┃ ┃ ┗ 📜confirmModal.jsx
+ ┃ ┃ ┃ ┣ 📂dataInput
+ ┃ ┃ ┃ ┃ ┣ 📜DataInput.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜InputStyle.js
+ ┃ ┃ ┃ ┃ ┗ 📜UserInput.jsx
+ ┃ ┃ ┃ ┣ 📂dateFormat
+ ┃ ┃ ┃ ┃ ┗ 📜DateFormat.jsx
+ ┃ ┃ ┃ ┣ 📂errorMessage
+ ┃ ┃ ┃ ┃ ┗ 📜ErrorMessage.jsx
+ ┃ ┃ ┃ ┣ 📂menuBar
+ ┃ ┃ ┃ ┃ ┣ 📜MenuBar.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜MenuBarStyle.js
+ ┃ ┃ ┃ ┣ 📂newTopHeader
+ ┃ ┃ ┃ ┃ ┣ 📜NewTopHeader.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜newTopHeader.style.js
+ ┃ ┃ ┃ ┣ 📂postModal
+ ┃ ┃ ┃ ┃ ┣ 📜PostModal.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜postModalStyle.js
+ ┃ ┃ ┃ ┣ 📂topButton
+ ┃ ┃ ┃ ┃ ┗ 📜TopButton.jsx
+ ┃ ┃ ┃ ┗ 📂topHeader
+ ┃ ┃ ┃ ┃ ┣ 📜ChatTopHeader.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜FeedTopHeader.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜FollowersTopHeader.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜ProductDetail.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜ProductTopEdit.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜ProfileEditTopHeader.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜ProfileTopHeader.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜SearchTopHeader.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜TopHeader.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜TopHeaderStyle.js
+ ┃ ┃ ┃ ┃ ┗ 📜UploadTopHeader.jsx
+ ┃ ┃ ┗ 📂units
+ ┃ ┃ ┃ ┗ 📂profile
+ ┃ ┃ ┃ ┃ ┣ 📂profileInfo
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProfileInfo.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ProfileInfo.styles.js
+ ┃ ┃ ┃ ┃ ┣ 📂ProfilePost
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProfilePost.jsx
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProfilePost.styles.js
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProfilePostGallery.jsx
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProfilePostGalleryList.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ProfilePostList.jsx
+ ┃ ┃ ┃ ┃ ┗ 📂ProfileProduct
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProfileProduct.jsx
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProfileProduct.styles.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ProfileProductList.jsx
+ ┃ ┣ 📂context
+ ┃ ┃ ┣ 📜AccountContext.jsx
+ ┃ ┃ ┣ 📜ModalContext.jsx
+ ┃ ┃ ┗ 📜UserContext.jsx
+ ┃ ┣ 📂hook
+ ┃ ┃ ┗ 📜useAuth.js
+ ┃ ┣ 📂img
+ ┃ ┃ ┣ 📜basic-profile.svg
+ ┃ ┃ ┣ 📜cat.jpg
+ ┃ ┃ ┣ 📜facebook.svg
+ ┃ ┃ ┣ 📜google-logo.svg
+ ┃ ┃ ┣ 📜Group 20.svg
+ ┃ ┃ ┣ 📜Group 25.svg
+ ┃ ┃ ┣ 📜Group 26.svg
+ ┃ ┃ ┣ 📜icon-arrow-left.svg
+ ┃ ┃ ┣ 📜icon-edit-fill.svg
+ ┃ ┃ ┣ 📜icon-edit.svg
+ ┃ ┃ ┣ 📜icon-heart-fill.svg
+ ┃ ┃ ┣ 📜icon-heart.svg
+ ┃ ┃ ┣ 📜icon-home-fill.svg
+ ┃ ┃ ┣ 📜icon-home.svg
+ ┃ ┃ ┣ 📜icon-image.svg
+ ┃ ┃ ┣ 📜icon-img-layers.svg
+ ┃ ┃ ┣ 📜icon-message-circle-1.svg
+ ┃ ┃ ┣ 📜icon-message-circle-fill.svg
+ ┃ ┃ ┣ 📜icon-message-circle.svg
+ ┃ ┃ ┣ 📜icon-more-vertical.svg
+ ┃ ┃ ┣ 📜icon-palette-fill.svg
+ ┃ ┃ ┣ 📜icon-palette.svg
+ ┃ ┃ ┣ 📜icon-post-album-off.svg
+ ┃ ┃ ┣ 📜icon-post-album-on.svg
+ ┃ ┃ ┣ 📜icon-post-list-off.svg
+ ┃ ┃ ┣ 📜icon-post-list-on.svg
+ ┃ ┃ ┣ 📜icon-search.svg
+ ┃ ┃ ┣ 📜icon-share.svg
+ ┃ ┃ ┣ 📜icon-user-fill.svg
+ ┃ ┃ ┣ 📜icon-user.svg
+ ┃ ┃ ┣ 📜img-button-active.svg
+ ┃ ┃ ┣ 📜img-button.svg
+ ┃ ┃ ┣ 📜kakao-logo.svg
+ ┃ ┃ ┣ 📜login-logo.svg
+ ┃ ┃ ┣ 📜message-circle.svg
+ ┃ ┃ ┣ 📜no-image.png
+ ┃ ┃ ┣ 📜ProfileImg.svg
+ ┃ ┃ ┣ 📜splash-text.svg
+ ┃ ┃ ┣ 📜symbol-logo-404.svg
+ ┃ ┃ ┣ 📜symbol-logo-gray.svg
+ ┃ ┃ ┣ 📜symbol-logo-main.svg
+ ┃ ┃ ┣ 📜TopButton.svg
+ ┃ ┃ ┣ 📜Untitled.svg
+ ┃ ┃ ┣ 📜upload-file.svg
+ ┃ ┃ ┣ 📜Vector 10.svg
+ ┃ ┃ ┗ 📜x.svg
+ ┃ ┣ 📂library
+ ┃ ┃ ┣ 📜customAxios.js
+ ┃ ┃ ┗ 📜imgValidation.js
+ ┃ ┣ 📂pages
+ ┃ ┃ ┣ 📂chat
+ ┃ ┃ ┃ ┣ 📂chatList
+ ┃ ┃ ┃ ┃ ┣ 📜ChatList.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜chatList.style.js
+ ┃ ┃ ┃ ┗ 📂chatRoom
+ ┃ ┃ ┃ ┃ ┣ 📜ChatRoom.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜chatRoom.style.js
+ ┃ ┃ ┣ 📂drawing
+ ┃ ┃ ┃ ┣ 📜darwing.styles.js
+ ┃ ┃ ┃ ┗ 📜Drawing.jsx
+ ┃ ┃ ┣ 📂feed
+ ┃ ┃ ┃ ┣ 📂post
+ ┃ ┃ ┃ ┃ ┣ 📂postDetail
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜PostDetail.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜postDetail.style.js
+ ┃ ┃ ┃ ┃ ┣ 📂postEdit
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜PostEdit.jsx
+ ┃ ┃ ┃ ┃ ┣ 📂postUpload
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜PostUpload.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜Post.jsx
+ ┃ ┃ ┃ ┣ 📂product
+ ┃ ┃ ┃ ┃ ┣ 📂productDetail
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProductDetail.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜productDetail.style.js
+ ┃ ┃ ┃ ┃ ┣ 📂productEdit
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProductEdit.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜productEdit.style.js
+ ┃ ┃ ┃ ┃ ┗ 📂productUpload
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ProductUpload.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜productUpload.style.js
+ ┃ ┃ ┃ ┗ 📂search
+ ┃ ┃ ┃ ┃ ┣ 📜Search.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜search.style.js
+ ┃ ┃ ┃ ┃ ┣ 📜SearchList.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜searchList.style.js
+ ┃ ┃ ┣ 📂login
+ ┃ ┃ ┃ ┣ 📂loginEmail
+ ┃ ┃ ┃ ┃ ┣ 📜LoginEmail.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜loginEmail.style.js
+ ┃ ┃ ┃ ┣ 📜Login.jsx
+ ┃ ┃ ┃ ┗ 📜login.style.js
+ ┃ ┃ ┣ 📂notFound
+ ┃ ┃ ┃ ┣ 📜NotFound.jsx
+ ┃ ┃ ┃ ┗ 📜notFound.style.js
+ ┃ ┃ ┣ 📂profile
+ ┃ ┃ ┃ ┣ 📂follow
+ ┃ ┃ ┃ ┃ ┣ 📂followers
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜addFollowAPI.js
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜deleteFollowAPI.js
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜followerAPI.js
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜FollowerList.jsx
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜followerList.style.js
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜Followers.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜followers.style.js
+ ┃ ┃ ┃ ┃ ┗ 📂following
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜Following.jsx
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜following.style.js
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜followingAPI.js
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜FollowingList.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜followingList.style.js
+ ┃ ┃ ┃ ┣ 📂profileEdit
+ ┃ ┃ ┃ ┃ ┣ 📜ProfileEdit.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜profileEdit.style.js
+ ┃ ┃ ┃ ┗ 📂userProfile
+ ┃ ┃ ┃ ┃ ┣ 📜UserProfile.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜userProfile.styles.js
+ ┃ ┃ ┣ 📂signup
+ ┃ ┃ ┃ ┣ 📂profileSetting
+ ┃ ┃ ┃ ┃ ┗ 📜ProfileSetting.jsx
+ ┃ ┃ ┃ ┗ 📂userAccount
+ ┃ ┃ ┃ ┃ ┗ 📜UserAccount.jsx
+ ┃ ┃ ┗ 📂splash
+ ┃ ┃ ┃ ┣ 📜Splash.jsx
+ ┃ ┃ ┃ ┗ 📜splash.style.js
+ ┃ ┣ 📂routes
+ ┃ ┃ ┗ 📜Router.jsx
+ ┃ ┣ 📜App.js
+ ┃ ┣ 📜GlobalStyle.js
+ ┃ ┗ 📜index.js
+ ┣ 📜.env
+ ┣ 📜.gitignore
+ ┣ 📜.prettierrc.json
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┗ 📜README.md
 <br/>
 
 <p align="right"><a href="#top">(Top)</a></p>
@@ -237,7 +478,8 @@ prettier: 2.8.8
 <br/>
 
 ## 5. Git Branch 전략
-![스크린샷 2023-01-04 오후 3 50 02](https://user-images.githubusercontent.com/105365737/210499534-bbab397d-9446-4859-812a-ca14662ba54a.png)
+![GitBranch](https://github.com/24-gitTest/demo-repository/assets/87430624/745e1de4-2428-48f4-b97f-f9af03eae4f3)
+
 * 소규모 프로젝트에 맞게 Main, Develop, Feature 세 Branch를 사용하는 전략 사용
 
 <br/>
