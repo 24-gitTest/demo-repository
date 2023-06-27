@@ -65,13 +65,13 @@
 - <a href="https://github.com/nailedReact/bokgungom-market/issues?q=is%3Aissue+is%3Aclosed" target="_blank">🔘 GitHub Issues</a>
     - 간편한 이슈 생성을 위해 이슈 템플릿을 만들어 사용했습니다.
     - 이슈 템플릿으로 어떤 이슈인지, 어떤 페이지에 해당하는 지, 구현 해야 하는 내용이 무엇인지를 적도록 했습니다.
-    <img style="margin: 10px" width=80% src="https://github.com/24-gitTest/demo-repository/assets/87430624/36b5aa5a-a425-4250-a6d4-0fad1d624ce5
-" alt="이슈 예시"/>
-
-    - 팀원이 현재 어떤 작업을 진행하고 있는지를 바로 알 수 있어 의사소통 비용을 줄일 수 있었습니다. 
-- <a href="[https://github.com/orgs/nailedReact/projects/1/views/1](https://github.com/orgs/FRONTENDSCHOOL5/projects/17)" target="_blank">🗂️ GitHub Projects</a>
+  ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/36b5aa5a-a425-4250-a6d4-0fad1d624ce5)
+    - 팀원이 현재 어떤 작업을 진행하고 있는지를 바로 알 수 있어 의사소통 비용을 줄일 수 있었습니다.
+    - 
+- <a href="[https://github.com/orgs/FRONTENDSCHOOL5/projects/17]" target="_blank">🗂️ GitHub Projects</a>
     - 칸반 보드로 프로젝트 진행 상황을 한 눈에 확인할 수 있어 일정을 관리하기 수월했습니다.
-    <img style="margin: 10px" width=80% src="./preview/project.png" alt="깃허브 프로젝트 캡쳐"/>
+    ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/8c1d4b6b-abb0-476a-a473-48b8a687fd02)
+
 
 <p align="right"><a href="#top">TOP 🔼</a></p>
 <br>
