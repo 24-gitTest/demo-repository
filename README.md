@@ -79,7 +79,7 @@ prettier: 2.8.8
 
 ## 📊 프로젝트 진행 상황 관리
 
-- <a href="https://github.com/nailedReact/bokgungom-market/issues?q=is%3Aissue+is%3Aclosed" target="_blank" width="300" height="300">🔘 GitHub Issues</a>
+- <a href="https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/issues">🔘 GitHub Issues</a>
     - 간편한 이슈 생성을 위해 이슈 템플릿을 만들어 사용했습니다.
     - 이슈 템플릿으로 어떤 이슈인지, 어떤 페이지에 해당하는 지, 구현 해야 하는 내용이 무엇인지를 적도록 했습니다.
   ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/36b5aa5a-a425-4250-a6d4-0fad1d624ce5)
