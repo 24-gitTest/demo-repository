@@ -82,9 +82,9 @@ prettier: 2.8.8
 - <a href="https://github.com/nailedReact/bokgungom-market/issues?q=is%3Aissue+is%3Aclosed" target="_blank" width="300" height="300">🔘 GitHub Issues</a>
     - 간편한 이슈 생성을 위해 이슈 템플릿을 만들어 사용했습니다.
     - 이슈 템플릿으로 어떤 이슈인지, 어떤 페이지에 해당하는 지, 구현 해야 하는 내용이 무엇인지를 적도록 했습니다.
-  ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/36b5aa5a-a425-4250-a6d4-0fad1d624ce5){: width="100" height="100"}
+  ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/36b5aa5a-a425-4250-a6d4-0fad1d624ce5)
+
     - 팀원이 현재 어떤 작업을 진행하고 있는지를 바로 알 수 있어 의사소통 비용을 줄일 수 있었습니다.
-    - 
 - <a href="[https://github.com/orgs/FRONTENDSCHOOL5/projects/17]" target="_blank">🗂️ GitHub Projects</a>
     - 칸반 보드로 프로젝트 진행 상황을 한 눈에 확인할 수 있어 일정을 관리하기 수월했습니다.
     ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/8c1d4b6b-abb0-476a-a473-48b8a687fd02)
@@ -94,7 +94,6 @@ prettier: 2.8.8
 <br>
 
 ### 🚀 GitHub Action - 브랜치 생성 자동화
-
 ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/74c0d04e-7339-4b1b-b8f2-4d5d707e8e4b)
 
 - [Create Issue Branch](https://github.com/marketplace/actions/create-issue-branch)
@@ -102,8 +101,6 @@ prettier: 2.8.8
     - [브랜치 자동화 설정 상세 내용]([https://github.com/nailedReact/react-app/wiki/%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%9E%90%EB%8F%99%ED%99%94-%EC%84%A4%EC%A0%95-%EB%82%B4%EC%9A%A9](https://github.com/nailedReact/bokgungom-market/wiki/%F0%9F%AA%84-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%9E%90%EB%8F%99%ED%99%94-%EC%84%A4%EC%A0%95-%EB%82%B4%EC%9A%A9))
     
 - 예) 자동 생성된 브랜치를 pull 하고 ```git checkout -t origin/feat/issue-81```하여 해당 브랜치로 이동합니다.
-- [브랜치 history](https://github.com/nailedReact/react-app/blob/main/preview/git%20branch%20history.png)
-
 <p align="right"><a href="#top">TOP 🔼</a></p>
 <br>
 
