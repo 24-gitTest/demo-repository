@@ -46,14 +46,14 @@
 |:------:|---|
 |FrontEnd|<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"> <img src="https://img.shields.io/badge/styledcomponents-CC6699?style=for-the-badge&logo=styledcomponents&logoColor=white"> <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=white"> <img src="https://img.shields.io/badge/Lodash-F03000?style=for-the-badge&logo=Lodash&logoColor=white"> <img src="https://img.shields.io/badge/Axios-D571FF?style=for-the-badge&logo=Axios&logoColor=white">|
 |BackEnd|제공된 API 사용|
-|협업 도구|<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white"> <img src="https://img.shields.io/badge/Notion-DBDBDB?style=for-the-badge&logo=Notion&logoColor=white"/> |
+|협업 도구|<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white"> <img src="https://img.shields.io/badge/Notion-DBDBDB?style=for-the-badge&logo=Notion&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-D535353?style=for-the-badge&logo=Figma&logoColor=white"/> |
 
 
 ### 3-2. 기술 스택
-- FE : React v18, Styled-components v5, Axios v1.2.1
+- FE : React v18, Styled-components v5, Axios v1.4.0
 - BE : 제공된 API 사용
 
-### 3-3. 협업 툴
+### 3-3. 링크
 - 버전 관리 : Git, <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket'>GitHub</a>
 - 진행 상황 관리(칸반 보드) : <a href='https://github.com/orgs/FRONTENDSCHOOL5/projects/17'>GitHub Projects</a>
 - 이슈 관리 : <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/issues'>GitHub Issues</a>
