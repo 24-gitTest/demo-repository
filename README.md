@@ -274,20 +274,22 @@
 <br/>
 
 ### 🪄 이슈 관리 프로세스
-#### - 작업 전 <a href='https://github.com/daengnyang-market/daengnyang-market-client/issues'>GitHub Issues</a> 등록
+#### - 작업 전 <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/issues'>GitHub Issues</a> 등록
 * 아무리 작은 작업이라도 수월한 이슈 추적을 위해 이슈 반드시 등록 후 작업 진행 (작업 하나당 이슈 하나)
-  ![스크린샷 2023-01-05 오전 10 50 20](https://user-images.githubusercontent.com/105365737/210683441-8ac973b0-31f2-4c38-a3a4-c42d386dc33e.png)
+  ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/e0d83cca-8c51-456f-8cbe-d46a9ccdf80a)
+
 * 컨벤션 통일을 위해 이슈 템플릿 사용
 
-#### - 이슈 해결 후 <a href='https://github.com/daengnyang-market/daengnyang-market-client/pulls'>Pull Request</a> 생성
+#### - 이슈 해결 후 <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/pulls'>Pull Request</a> 생성
 * 컨벤션 통일을 위해 PR 템플릿 사용
 * 팀원 2명 이상의 승인을 받아야 머지 가능
+* 코드리뷰 후에 PR 승인
 
 <br/>
 
 ### 🕵 이슈 진행 상황 관리
 #### - <a href='https://github.com/orgs/FRONTENDSCHOOL5/projects/17'>GitHub Projects</a>를 이용한 칸반 보드
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/d1e31fa8-55ac-44e3-bb86-0803d303b0de)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/f15a44b4-1dfe-4f9e-a7fd-c859e7147011)
 
 - 이슈 진행 상황을 한 눈에 볼 수 있도록 칸반 보드 형태로 시각화
 
