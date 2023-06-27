@@ -252,12 +252,9 @@
 ## 7. 협업 문화
 ### 💪 팀워크 강화
 #### - 설문지 작성
-- 프로젝트 시작 전, 공통된 팀 목표를 세우고 시너지를 강화하기 위해 <a href='https://form.office.naver.com/form/responseView.cmd?formkey=YTJkYzQzNDItMGMwMC00YzdmLWJhMzQtZWVhODUxMjEwZjE0&sourceId=urlshare'>네이버폼 설문</a> 진행
+
 
 #### - 모두가 참여하는 회의
-![스크린샷 2023-01-05 오전 11 15 49](https://user-images.githubusercontent.com/105365737/210686325-0e5e592c-6072-43d0-95c4-8e80a26dd114.png)
-- 공동 작업툴인 <a href='https://www.figma.com/file/nOvMp6rMZt7eGwEpKoRFqK/%F0%9F%A7%A12%EC%9D%98-2%EC%8A%B9-%ED%9A%8C%EC%9D%98-%EA%B3%B5%EA%B0%84%F0%9F%A7%A1?t=oXIsUV1ACe2DC3YP-0'>Figzam</a>을 이용한 회의
-- 딱딱한 분위기의 회의가 아니라 모두가 참여할 수 있는 가벼운 분위기에서 회의를 진행
 
 <br/>
 
@@ -273,11 +270,7 @@
 <br/>
 
 ### 🎯 목표 관리
-#### - <a href='https://github.com/daengnyang-market/daengnyang-market-client/milestones'>GitHub Milestones</a>을 이용한 단계별 목표 관리
-![스크린샷 2023-01-04 오후 3 37 23](https://user-images.githubusercontent.com/105365737/210497888-bcbe842d-22d9-4619-b06e-0700df76f129.png)
-  - 프로젝트 단계별 목표를 명확하게 하기 위해 마일스톤 등록
-  - GitHub 이슈 등록 시 관련된 마일스톤 선택
-
+#### - 
 <br/>
 
 ### 🪄 이슈 관리 프로세스
