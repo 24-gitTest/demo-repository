@@ -54,7 +54,17 @@
 
 - 메신저 : Discord
 
-<br/>
+### 3.4 Version
+```
+react: ^18.2.0
+react-router-dom: ^6.12.1
+axios: ^1.4.0
+styled-components: ^5.3.11
+styled-reset: ^4.4.7
+react-device-detect: ^2.2.3
+lodash: ^4.17.21
+prettier: 2.8.8
+```
 
 <p align="right"><a href="#top">(Top)</a></p>
 
