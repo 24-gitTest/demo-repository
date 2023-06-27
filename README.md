@@ -15,7 +15,7 @@
 **수수마켓은 예술작품을 사랑하는 사람들을 위한 SNS/커뮤니티 서비스입니다.**
 - 개인의 예술품 및 공예품을 쉽게 사고 팔 수 있습니다. <br/>
 - 상품을 판매/구매하지 않아도 자신의 작품을 공유하며 즐거운 SNS 활동을 할 수 있습니다. <br/>
--  <br/>
+- 다른 사용자를 팔로우하여 소식을 공유할 수 있고 댓글과 좋아요를 통해 소통할 수 있습니다.<br/>
 
 <br/>
 
@@ -59,6 +59,37 @@
 <p align="right"><a href="#top">(Top)</a></p>
 
 <br/>
+
+## 📊 프로젝트 진행 상황 관리
+
+- <a href="https://github.com/nailedReact/bokgungom-market/issues?q=is%3Aissue+is%3Aclosed" target="_blank">🔘 GitHub Issues</a>
+    - 간편한 이슈 생성을 위해 이슈 템플릿을 만들어 사용했습니다.
+    - 이슈 템플릿으로 어떤 이슈인지, 어떤 페이지에 해당하는 지, 구현 해야 하는 내용이 무엇인지를 적도록 했습니다.
+    <img style="margin: 10px" width=80% src="![image](https://github.com/24-gitTest/demo-repository/assets/87430624/36b5aa5a-a425-4250-a6d4-0fad1d624ce5)
+" alt="이슈 예시"/>
+
+    - 팀원이 현재 어떤 작업을 진행하고 있는지를 바로 알 수 있어 의사소통 비용을 줄일 수 있었습니다. 
+- <a href="[https://github.com/orgs/nailedReact/projects/1/views/1](https://github.com/orgs/FRONTENDSCHOOL5/projects/17)" target="_blank">🗂️ GitHub Projects</a>
+    - 칸반 보드로 프로젝트 진행 상황을 한 눈에 확인할 수 있어 일정을 관리하기 수월했습니다.
+    <img style="margin: 10px" width=80% src="./preview/project.png" alt="깃허브 프로젝트 캡쳐"/>
+
+<p align="right"><a href="#top">TOP 🔼</a></p>
+<br>
+
+### 🚀 GitHub Action - 브랜치 생성 자동화
+
+<img style="margin: 10px" width=80% src="![image](https://github.com/24-gitTest/demo-repository/assets/87430624/c1076bcf-cc4b-4991-83f4-3d0abf6fa3fe)
+" alt="깃허브 프로젝트 캡쳐"/>
+
+- [Create Issue Branch](https://github.com/marketplace/actions/create-issue-branch)
+- 이슈를 생성하면 GitHub Action으로 해당 이슈에 해당하는 브랜치가 자동으로 생성되도록 설정하여 브랜치명을 고민하고 브랜치를 생성하는 시간을 줄였습니다.
+    - [브랜치 자동화 설정 상세 내용]([https://github.com/nailedReact/react-app/wiki/%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%9E%90%EB%8F%99%ED%99%94-%EC%84%A4%EC%A0%95-%EB%82%B4%EC%9A%A9](https://github.com/nailedReact/bokgungom-market/wiki/%F0%9F%AA%84-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%9E%90%EB%8F%99%ED%99%94-%EC%84%A4%EC%A0%95-%EB%82%B4%EC%9A%A9))
+    
+- 예) 자동 생성된 브랜치를 pull 하고 ```git checkout -t origin/feat/issue-81```하여 해당 브랜치로 이동합니다.
+- [브랜치 history](https://github.com/nailedReact/react-app/blob/main/preview/git%20branch%20history.png)
+
+<p align="right"><a href="#top">TOP 🔼</a></p>
+<br>
 
 
 ## 📐 컨벤션
