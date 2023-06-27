@@ -96,9 +96,6 @@ prettier: 2.8.8
 
 ### 🚀 GitHub Action - 브랜치 생성 자동화
 
-<img style="margin: 10px" width=80% src="![image](https://github.com/24-gitTest/demo-repository/assets/87430624/c1076bcf-cc4b-4991-83f4-3d0abf6fa3fe)
-" alt="깃허브 프로젝트 캡쳐"/>
-
 ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/74c0d04e-7339-4b1b-b8f2-4d5d707e8e4b)
 
 - [Create Issue Branch](https://github.com/marketplace/actions/create-issue-branch)
@@ -269,20 +266,20 @@ prettier: 2.8.8
 
 ## 7. 협업 문화
 
-#### - 모두가 참여하는 회의
+#### 모두가 참여하는 회의
 노션을 이용하여 함께 의견을 나누고 실시간으로 의견을 텍스트화 시켜 더 활발한 회의를 진행했습니다.
 서로의 의견이 묻히지 않도록 각 팀원의 의견을 집중해서 들었고 팀원 모두가 이해했는지 항상 물어보았습니다.
 
 <br/>
 
-#### - 디스코드 및 노션활용
+#### 디스코드 및 노션활용
 - 디스코드의 쓰레드 및 화면공유 기능을 이용하여 각자의 개발진전도와 구현상황을 편리하게 공유했습니다.
 - 노션 팀 스페이스 페이지를 사용하여 업무 및 요구사항, 일정을 상시 확인할 수 있었습니다.
 ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/d97c7d1d-71df-4859-acec-1b423fa3e122)
 
 <br/>
 
-#### - 팀 규칙
+#### 팀 규칙
 1. **코드 리뷰**를 통해 함께 성장해나가기❤️
 2. 프로젝트 끝날 때까지 **긍정적인** 생각만 하기❤️
 3. **코드 컨벤션**에 맞춰 작성하기❤️
@@ -305,7 +302,7 @@ prettier: 2.8.8
 
 * 컨벤션 통일을 위해 이슈 템플릿 사용
 
-#### - 이슈 해결 후 <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/pulls'>Pull Request</a> 생성
+#### 이슈 해결 후 <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/pulls'>Pull Request</a> 생성
 * 컨벤션 통일을 위해 PR 템플릿 사용
 * 팀원 2명 이상의 승인을 받아야 머지 가능
 * 코드리뷰 후에 PR 승인
