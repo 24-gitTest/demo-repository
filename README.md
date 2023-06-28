@@ -95,16 +95,14 @@ prettier: 2.8.8
   </div>
 </details>
 <details>
-  <summary><b>컨벤션 및 api학습을 위한 사전과제 진행 : 2023-06-08 ~ 2023-06-11</b></summary>
+  <summary><b>컨벤션 및 api학습을 위한 사전과제(날씨앱) 진행 : 2023-06-08 ~ 2023-06-11</b></summary>
   <div markdown="1">
-    사전과제(날씨앱)
-   <p> 사전과제(날씨앱)을 함으로써 얻었던 이점
+   사전과제(날씨앱)을 함으로써 얻었던 이점
     기대효과 프로젝트에 사용되는 기능을 미리 사용해봄으로써 직후 1차 기능 구현할 때 도움이 됨 <br>
-    - 코드 컨벤션 연습 <br>
-    - API 비동기 이해 <br>
-    - styled-component 학습 <br>
-    https://github.com/24-test-project/weatherapp
-   </p>
+    코드 컨벤션 연습 <br>
+    API 비동기 이해 <br>
+    styled-component 학습 <br>
+    날씨앱 레포지토리 https://github.com/24-test-project/weatherapp
   </div>
 </details>
 <details>
@@ -126,13 +124,11 @@ prettier: 2.8.8
   <summary><b>공통UI 컴포넌트 개발 : 2023-06-12 ~ 2023-06-14</b></summary>
   <div markdown="1">
     <ul>
-     <li>라우터 설정</li>
-     <li>공통으로 사용되는 버튼 제작 ( s, m, ms, l, disabled …)</li>
+     함께 같이 만들었던 것
      <li>에러 메시지</li>
      <li>스플래시 화면 개발</li>
      <li>로그인 시작 페이지 개발</li>
     </ul>
-   스타일드 컴포넌트 좀 더 익숙해지기 위함
   </div>
 </details>
 <details>
