@@ -27,7 +27,7 @@
 
 |                                    **FE 강윤정**                                    |                                    **FE 남종태**                                    |                                 **FE 안나별**                                 |                                    **FE 양서진**                                    |
 | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/rosamondkim" height=180 width=180> | <img src="https://user-images.githubusercontent.com/105365737/210505937-b42b42ea-2b1f-4b4b-ad39-1cc363a9f7fd.jpg" height=180 width=180> | <img src="https://user-images.githubusercontent.com/87430624/249203418-7a4dcfe4-73cd-43ea-b165-da70ce210463.png" height=180 width=180> | <img src="https://avatars.githubusercontent.com/yedol1" height=180 width=180> |
+| <img src="" height=180 width=180> | <img src="" height=180 width=180> | <img src="https://user-images.githubusercontent.com/87430624/249203418-7a4dcfe4-73cd-43ea-b165-da70ce210463.png" height=180 width=180> | <img src="" height=180 width=180> |
 |                        [🔗 GitHub](https://github.com/Yunjung324)<br/> 디자인 리더                         |                        [🔗 GitHub](https://github.com/MAIN6419)<br/> 개발 리더                         |           [🔗 GitHub](https://github.com/an1413)<br/> 팀장          |                        [🔗 GitHub](https://github.com/zkdk1241)<br/> 문서 정리                         |
 
 
@@ -302,7 +302,7 @@ prettier: 2.8.8
 
 <br/>
 
-## 🐰 강윤정
+## 강윤정
 ### 🏷️ 회의록 작성
 - 기록을 위한 [회의록](https://www.notion.so/13305aa3389242979abd187a653bcd91) 작성 담당
 
@@ -335,7 +335,7 @@ prettier: 2.8.8
 
 <br/>
 
-## 🦒 남종태
+## 남종태
 ### 🎨 화면 개발
 
 - 게시글, 상품 컴포넌트 제작
@@ -376,7 +376,7 @@ prettier: 2.8.8
 
 <br/>
 
-## 🐣 안나별
+## 안나별
 ### 🏷️ 프로젝트 주도
 - 커뮤니케이션
   - 팀 목표를 세우고 시너지를 강화하기 위해 <a href='https://form.office.naver.com/form/responseView.cmd?formkey=YTJkYzQzNDItMGMwMC00YzdmLWJhMzQtZWVhODUxMjEwZjE0&sourceId=urlshare'>네이버폼 설문지</a> 작성
@@ -451,7 +451,7 @@ prettier: 2.8.8
 
 <br/>
 
-## 🌸 양서진
+## 양서진
 ### 🎨 화면 개발
 
 - 버튼 컴포넌트(S, MS, M, L 사이즈) 제작
@@ -603,22 +603,22 @@ prettier: 2.8.8
  
 
 ## 12. 느낀점
-## 🐰 강윤정
+## 강윤정
 
 
 <br/>
 
-## 🦒 남종태
+## 남종태
 
 
 <br/>
 
-## 🐣 안나별
+## 안나별
 
 
 <br/>
 
-## 🌸 양서진
+## 양서진
 
 
 <br/>
