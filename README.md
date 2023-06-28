@@ -274,7 +274,7 @@ prettier: 2.8.8
 <br/>
 
 ## 8. 구현 기능 및 담당자
-<img src="https://user-images.githubusercontent.com/105365737/210319126-76c4fed6-b4f9-4d07-a95e-9f908fbba796.png" width="1000" />
+<img src="" width="1000" />
 
 <br/>
 
