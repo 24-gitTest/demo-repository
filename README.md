@@ -497,34 +497,7 @@ customAxios.interceptors.request.use(
 
 <br/>
 
-### 3 ) 예외처리
-
-- 게시물, 상품 페이지 에서 존재하지 않는 게시물 페이지로 접속시  조건부 렌더링을 통해 다른 UI를 보여주었습니다.
-- 프로필 편집 페이지에서 자신의 accountname과 일치하지 않는다면 페이지에 접속하면 useNavigate 훅을 이용하여 profile 페이지로 리다이렉트 되도록하였습니다.
-- 게시물 수정, 상품 수정 페이지 작성자가 아니라면 페이지에 접속하면 useNavigate 훅을 이용하여 post 페이지로 리다이렉트 되도록하였습니다.
-- 프로필 수정 시 수정사항이 없을 때 수정이 되지 않도록 막아 필요없는 API요청을 막습니다.
-  
-- 구현 화면
-  - 존재하지 않는 게시물에 접속하는 경우
-    
-  ![게시물 페이지 제한](https://github.com/24-gitTest/demo-repository/assets/113427991/fc870be1-029e-4659-b306-73a303b935c2)
-
-  - 다른 유저의 게시물 수정 페이지에 접속하는 경우
-    
-  ![게시물 편집 이동 제한](https://github.com/24-gitTest/demo-repository/assets/113427991/d9d00705-38df-44bf-b593-d8506b7734a6)
-
-  - 다른 유저 프로필 수정 페이지에 접속하는 경우
-    
-  ![다른 유저 프로필 수정 제한](https://github.com/24-gitTest/demo-repository/assets/113427991/30f0cf94-6584-4c79-a164-6ac321442517)
-
-  - 프로필 변경 사항이 없는 경우
-
-  ![프로필 이미지 수정 사항이 없는 경우](https://github.com/24-gitTest/demo-repository/assets/113427991/22f86bc1-5609-4b4a-a5a3-45c0e8347d3f)
-
-    
-<br/>
-
-### 4 ) img Validation
+### 3 ) img Validation
 - imgValidation 함수를 만들어서 이미지 사용 페이지에 공통으로 사용 가능하도록 적용하였습니다.
 - imgValidation을 함수로 만들어서 코드 중복사용을 피하고 imgValidation 하나로 통일하였습니다.
 - 이미지 파일이 없거나 API에서 제공하는 이미지 형식이 아니거나 크기가 초과한다면 이미지를 올리지 못하도록 제한하고, 경고창이 출력되도록 하였습니다.
@@ -563,6 +536,97 @@ export const imgValidation = (file) => {
   - 프로필 이미지 변경에 imgValidation 적용
     
   ![imgvalidation](https://github.com/24-gitTest/demo-repository/assets/113427991/2a542540-5730-46cf-a477-99094c4aa6a0)
+  
+</br>
+
+#### 4 ) 무한스크롤
+- 무한스크롤을 이용하여 데이터를 일부만 가져와 서버의 부담을 줄이고 로딩속도를 개선 하였습니다.
+- react-intesection-observer 라이브러리를 이용하여 무한스크롤을 구현하였습니다.
+- react-intesection-observer의 useView()의 ref값을 관찰요소 ref값에 넣으면 관찰요소를 지정할 수 있습니다.
+- 만약 관찰요소가 화면 출력되면 inView true로 화면에서 사라진다면 false로 변경되게 됩니다.
+- hasMore를 통해 다음 데이터가 없다면 api 요청을 일어나지 않게 조건을 걸어 주었습니다.
+- hasMore는 현재 API에서 받아온 post의 length와 limt가 같은지 비교하여 다음 데이터가 있는지 판단해줍니다.
+- API 요청을 보낼 때 마다 skip 값을 limit 값만 만큼 증가 시켜주어 다음 데이터를 받아올수 있도록 하였습니다.
+```javascript
+export default function ProfilePost({
+  onClickButton,
+  settingPostModalProps,
+  closeModal,
+  userData,
+  isFeed,
+}) {
+  const [postData, setPostData] = useState([]);
+  const [isNonePostData, setIsNonePostData] = useState(false);
+  const [isGallery, setIsGallery] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [ref, inVeiw] = useInView();
+  const limit = 5;
+  const [skip, setSkip] = useState(0);
+  const [hasMore, setHasMore] = useState(true);
+  const navigate = useNavigate();
+
+  // 게시물 정보를 받아옴
+  const fetchPostData = async () => {
+    try {
+      const response = await customAxios(
+        isFeed
+          ? `post/feed?limit=${limit}&skip=${skip}`
+          : `post/${userData.accountname}/userpost?limit=${limit}&skip=${skip}`,
+      );
+      const data = isFeed ? response.data.posts : response.data.post;
+      setPostData((prev) => [...prev, ...data]);
+      setHasMore(data.length === limit);
+      setSkip((prev) => prev + limit);
+      setIsLoading(false);
+      if (data.length === 0 && skip === 0) {
+        setIsNonePostData(true);
+      } else {
+        setIsNonePostData(false);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    if (skip === 0 && !inVeiw) {
+      fetchPostData();
+    }
+    if (hasMore && inVeiw) {
+      fetchPostData();
+    }
+  }, [inVeiw]);
+
+  return (
+    // isFeed를 통해 profile 페이지에서 출력될 요소와 feed 페이지에서 출력될 요소를 구분
+    <ProfilePostWrapper>
+           (중략)
+            <ProfilePostUl>
+              {postData.map((post) => (
+                <ProfilePostList
+                  key={post.id}
+                  onClickButton={onClickButton}
+                  settingPostModalProps={settingPostModalProps}
+                  closeModal={closeModal}
+                  reFetchPostData={fetchPostData}
+                  post={post}
+                  setPostData={setPostData}
+                  isFeed={isFeed}
+                  userData={userData}
+                />
+              ))}
+              <div ref={ref}></div>
+            </ProfilePostUl>
+          )}
+        </>
+      )}
+    </ProfilePostWrapper>
+  );
+}
+
+```
+  
+![무한스크롤](https://github.com/24-gitTest/demo-repository/assets/113427991/50074b5a-5789-4d43-9b89-cdef13beeb0c)
 
 <br/>
  
