@@ -79,19 +79,18 @@ prettier: 2.8.8
 - <a href="https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/issues">🔘 GitHub Issues</a>
     - 간편한 이슈 생성을 위해 이슈 템플릿을 만들어 사용했습니다.
     - 이슈 템플릿으로 어떤 이슈인지, 어떤 페이지에 해당하는 지, 구현 해야 하는 내용이 무엇인지를 적도록 했습니다.
-  ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/36b5aa5a-a425-4250-a6d4-0fad1d624ce5)
-
     - 팀원이 현재 어떤 작업을 진행하고 있는지를 바로 알 수 있어 의사소통 비용을 줄일 수 있었습니다.
+  ![image](https://user-images.githubusercontent.com/87430624/249041854-36b5aa5a-a425-4250-a6d4-0fad1d624ce5.png)
 - <a href="https://github.com/orgs/FRONTENDSCHOOL5/projects/17" target="_blank">🗂️ GitHub Projects</a>
-    - 칸반 보드로 프로젝트 진행 상황을 한 눈에 확인할 수 있어 일정을 관리하기 수월했습니다.
-    ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/8c1d4b6b-abb0-476a-a473-48b8a687fd02)
+    - 칸반 보드를 사용해 프로젝트 진행 상황을 한 눈에 확인할 수 있어 일정을 관리하기 수월했습니다.
+    ![image](https://user-images.githubusercontent.com/87430624/249043346-8c1d4b6b-abb0-476a-a473-48b8a687fd02.png)
 
 
 <p align="right"><a href="#top">TOP 🔼</a></p>
 <br>
 
 ### 🚀 GitHub Action - 브랜치 생성 자동화
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/74c0d04e-7339-4b1b-b8f2-4d5d707e8e4b)
+![image](https://user-images.githubusercontent.com/87430624/249042831-74c0d04e-7339-4b1b-b8f2-4d5d707e8e4b.png)
 
 - [Create Issue Branch](https://github.com/marketplace/actions/create-issue-branch)
 - 이슈를 생성하면 GitHub Action으로 해당 이슈에 해당하는 브랜치가 자동으로 생성되도록 설정하여 브랜치명을 고민하고 브랜치를 생성하는 시간을 줄였습니다.
