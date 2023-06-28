@@ -577,7 +577,7 @@ prettier: 2.8.8
 
 ### 6) 캔버스
 |---|---|---|
-
+https://github.com/24-gitTest/demo-repository/assets/47853679/3731d60d-a2d7-4144-8c9f-cc922ecc5eb7
 <br/>
 
 <p align="right"><a href="#top">(Top)</a></p>
