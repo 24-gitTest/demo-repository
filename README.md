@@ -657,11 +657,11 @@ customAxios.interceptors.request.use(
 - 구현 화면
   - debunce 적용 전
   
-  ![디바운싱적용전](https://github.com/MAIN6419/timer/assets/113427991/2292d28b-8b47-46af-9013-95718f3c9775)
+  ![디바운싱적용전](https://github.com/24-gitTest/demo-repository/assets/113427991/0a97e75b-1a3c-4cce-b334-be4b945dfce1)
 
   - debunce 적용 후
   
-  ![디바운싱적용후](https://github.com/MAIN6419/timer/assets/113427991/2dd71749-48c8-4e3b-9c5f-989359d066dc)
+  ![디바운싱적용후](https://github.com/24-gitTest/demo-repository/assets/113427991/e1f4f5c8-906c-41bf-9e0e-1aac05f2d4a9)
 
 <br/>
 
@@ -675,19 +675,19 @@ customAxios.interceptors.request.use(
 - 구현 화면
   - 존재하지 않는 게시물에 접속하는 경우
     
-  ![게시물 페이지 제한](https://github.com/MAIN6419/timer/assets/113427991/066fa45b-c3e1-4550-9c12-60c6f2ceb583)
+  ![게시물 페이지 제한](https://github.com/24-gitTest/demo-repository/assets/113427991/fc870be1-029e-4659-b306-73a303b935c2)
 
   - 다른 유저의 게시물 수정 페이지에 접속하는 경우
     
-  ![게시물 편집 이동 제한](https://github.com/MAIN6419/timer/assets/113427991/2c80982b-c18a-4274-b82f-776b34890739)
+  ![게시물 편집 이동 제한](https://github.com/24-gitTest/demo-repository/assets/113427991/d9d00705-38df-44bf-b593-d8506b7734a6)
 
   - 다른 유저 프로필 수정 페이지에 접속하는 경우
     
-  ![다른 유저 프로필 수정 제한](https://github.com/MAIN6419/timer/assets/113427991/d383f3b2-aaca-4b06-b56d-62f975b304da)
+  ![다른 유저 프로필 수정 제한](https://github.com/24-gitTest/demo-repository/assets/113427991/30f0cf94-6584-4c79-a164-6ac321442517)
 
   - 프로필 변경 사항이 없는 경우
 
-  ![프로필 이미지 수정 사항이 없는 경우](https://github.com/MAIN6419/timer/assets/113427991/a9a60cb3-986b-429b-9a4a-1bfa82514f68)
+  ![프로필 이미지 수정 사항이 없는 경우](https://github.com/24-gitTest/demo-repository/assets/113427991/22f86bc1-5609-4b4a-a5a3-45c0e8347d3f)
 
     
 <br/>
