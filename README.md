@@ -437,8 +437,7 @@ customAxios.interceptors.request.use(
 
 ### 2 ) loadsh 라이브러리 debounce 기능을 이용한 검색 최적화
 - 기존 검색시 onChange 이벤트에서 input의 변화가 감지될 때 마다 API요청이 발생하여 불필요한 API 요청이 발생합니다.
-- debounce => 일정 시간이 경과한 이후 onChange 이벤트를 한 번만 호출하게 하여 불필요한 호출을 막아줍니다.
-- 검색시 설정한 시간 동안 입력이 없다면 그때 이벤트를 호출합니다.
+- debunce을 통해 설정한 시간이 경과한 이후 이벤트가 호출되지 않을 때 이벤트를 한 번만 호출하게 해주어 불필요한 API 호출을 막아줍니다.
 - lodash debounce는 첫 번째 인자로 실행할 함수, 두 번째 인자로 시간을 받습니다.
 ```javacript
 // debounce패턴 적용한 유저 검색 함수
@@ -457,11 +456,11 @@ customAxios.interceptors.request.use(
   );
 ```
 - 구현 화면
-  - debunce 적용 전
+  - debounce 적용 전
   
   ![디바운싱적용전](https://github.com/24-gitTest/demo-repository/assets/113427991/0a97e75b-1a3c-4cce-b334-be4b945dfce1)
 
-  - debunce 적용 후
+  - debounce 적용 후
   
   ![디바운싱적용후](https://github.com/24-gitTest/demo-repository/assets/113427991/e1f4f5c8-906c-41bf-9e0e-1aac05f2d4a9)
 
@@ -473,6 +472,7 @@ customAxios.interceptors.request.use(
 - 이미지 파일이 없거나 API에서 제공하는 이미지 형식이 아니거나 크기가 초과한다면 이미지를 올리지 못하도록 제한하고, 경고창이 출력되도록 하였습니다.
 ``` javascript
 export const imgValidation = (file) => {
+  const reg = /(.*?)\.(jpg|jpeg|png|gif|bmp|tif|heic)$/;
   // 파일 확인
   if (!file) {
     return false;
@@ -484,13 +484,7 @@ export const imgValidation = (file) => {
   }
   // 이미지 지원 형식 확인
   if (
-    !file.name.includes("png") &&
-    !file.name.includes("jpg") &&
-    !file.name.includes("jpeg") &&
-    !file.name.includes("bmp") &&
-    !file.name.includes("tif") &&
-    !file.name.includes("heic") &&
-    !file.name.includes("gif")
+    !reg.test(file.name)
   ) {
     alert(
       "이미지 형식을 확인해 주세요!\n(지원형식 : .jpg,.gif, .png,.jpeg, .bmp,.tif, *.heic)"
@@ -500,6 +494,8 @@ export const imgValidation = (file) => {
   // 모두 만족 한다면 true 반환
   return true;
 };
+
+
 
 ```
 - 구현 화면
@@ -570,7 +566,7 @@ export default function ProfilePost({
   return (
     // isFeed를 통해 profile 페이지에서 출력될 요소와 feed 페이지에서 출력될 요소를 구분
     <ProfilePostWrapper>
-           (중략)
+           (중략)...
             <ProfilePostUl>
               {postData.map((post) => (
                 <ProfilePostList
@@ -595,8 +591,10 @@ export default function ProfilePost({
 }
 
 ```
-  
-![무한스크롤](https://github.com/24-gitTest/demo-repository/assets/113427991/50074b5a-5789-4d43-9b89-cdef13beeb0c)
+
+- 구현 화면
+
+![무한스크롤](https://github.com/24-gitTest/demo-repository/assets/113427991/eca4ef80-3d59-4de1-a259-f3b36dcd3ff8)
 
 <br/>
  
