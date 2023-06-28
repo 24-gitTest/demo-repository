@@ -545,6 +545,7 @@ prettier: 2.8.8
 <p align="right"><a href="#top">(Top)</a></p>
 
 <br/>
+![게시글수정](https://github.com/24-gitTest/demo-repository/assets/87430624/d38c81a0-98da-4558-9a1e-b9e8e6add6c5)
 
 ## 10. 페이지 캡쳐
 ### 1) 홈
