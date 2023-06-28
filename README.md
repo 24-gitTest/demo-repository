@@ -368,7 +368,7 @@ prettier: 2.8.8
 ## 확인용
 | 채팅 목록 페이지 |
 |:---:|
-| ![채팅 목록 페이지](https://user-images.githubusercontent.com/87430624/249319420-598a4b8f-cf19-4105-96cd-4b86cfe0ff27.gif) |
+| ![채팅 목록 페이지](https://user-images.githubusercontent.com/87430624/249319420-598a4b8f-cf19-4105-96cd-4b86cfe0ff27.gif){: width="350"} |
 
 ## 9.📃 페이지 캡쳐
 ### 1) 홈
