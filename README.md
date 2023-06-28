@@ -557,8 +557,8 @@ prettier: 2.8.8
 |![피드](https://user-images.githubusercontent.com/87430624/249322177-72e50afc-c707-4241-ac05-6c79089946e2.gif)|![검색](https://user-images.githubusercontent.com/87430624/249319334-184c2a9e-57a9-4d56-bbbc-f58a44033fc2.gif)|<img width="390;" alt="404" src="https://user-images.githubusercontent.com/87430624/249319320-6686e278-729c-4441-b572-7bd0ddeb4b43.gif">|
 
 ### 2) 채팅
-|채팅 목록 페이지|채팅방 페이지|채팅방 나가기|
-|---|---|---|
+|채팅 목록 페이지|
+|---|
 |![최종_채팅룸리스트_AdobeExpress](https://user-images.githubusercontent.com/87430624/249319420-598a4b8f-cf19-4105-96cd-4b86cfe0ff27.gif)|
 
 ### 3) 게시글
