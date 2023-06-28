@@ -254,27 +254,25 @@ prettier: 2.8.8
 <details>
   <summary><b>1차 개발 : 2023-06-14 ~ 2023-06-19</b></summary>
   <div markdown="1">
- ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/acf0a71a-2645-4469-83fb-38a1ab6fd39c)
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/87430624/249535797-acf0a71a-2645-4469-83fb-38a1ab6fd39c.png"/>
 
   </div>
 </details>
 <details>
   <summary><b>2차 개발 : 2023-06-19 ~ 2023-06-24</b></summary>
   <div markdown="1">
-    <ul>
-     <li>Search, followers, followering</li>
-     <li>profileEdit, userProfile</li>
-     <li>productDetail, productEdit, productUpload</li>
-     <li>postDetail, postEdit, postUpload</li>
-    </ul>
+
+<img src="https://github.com/24-gitTest/demo-repository/assets/87430624/3beb9c15-3633-489f-af1d-efd5c7ee1c8d"/>
+
    팔로우 좋아요 게시물작성(3개까지) 캔버스 댓글
   </div>
 </details>
 <details>
   <summary><b>버그 수정 및 유지보수 : 2023-06-24 ~ 2023-06-27</b></summary>
   <div markdown="1">
-    <ul>
-    </ul>
+   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/33db4bf8-b0dd-4f5e-8d0e-d23a1e2bd0d7"/>
+   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/0df4e7f1-b267-4aa5-a130-a3f270ef075d"/>
+"
   </div>
 </details>
 
