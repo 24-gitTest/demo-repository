@@ -730,7 +730,7 @@ export const imgValidation = (file) => {
 - 구현 화면
   - 프로필 이미지 변경에 imgValidation 적용
     
-  ![imgvalidation](https://github.com/MAIN6419/timer/assets/113427991/c8326411-33c6-4235-a772-282f671cf6c0)
+  ![imgvalidation](https://github.com/24-gitTest/demo-repository/assets/113427991/2a542540-5730-46cf-a477-99094c4aa6a0)
 
 <br/>
  
