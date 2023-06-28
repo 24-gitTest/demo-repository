@@ -414,43 +414,14 @@ prettier: 2.8.8
 
 ### 1 ) CustomAxios
 - CustomAxios : axios를 커스텀 하여 반복되어 들어가는 헤더 값과 baseUrl를 미리 설정해 두어 사용할 시 따로 헤더와 baseUrl를 따로 설정 할 필요없기 때문에 편리하게 사용할 수 있고, 코드가 단축된다는 장점이 있습니다.
-- 구현 후 문제점: 구현후 최초 로그인시 새로고침을 하지 않으면 customAxios의 accessToken 값이 바뀌지 않는 이슈 발생
-- axios의 interceptors.requset.use를 통해 해결 => axios 요청과 응답에 대한 전/후 처리와 오류 처리가 가능
-- config 인자를 통해 axios 설정 가능 => config.headers.Authorization로 accessToken 설정
-  
-초기 customAxios
 ```javascript
 import axios from "axios";
 
-export const customAxios = axios.create({
-  baseURL: process.env.REACT_APP_BASE_URL,
-  headers: {
-    "Authorization" : localStorage.getItem("accessToken") || "",
-    "Content-Type": "application/json", // default 값
-  },
-});
-```
+export const customAxios = axios.create();
 
-변경 후 customAxios
-```javascript
-import axios from "axios";
-
-export const customAxios = axios.create({
-  baseURL: process.env.REACT_APP_BASE_URL,
-  headers: {   
-    "Content-Type": "application/json", // default 값
-  },
-});
-
-// axios 요청전 토큰을 불러와서 적용시켜줌
-// 초기 로그인시 customAxios가 호출됨 이때는 localStorage에는 token 값 없기 때문에 token 값 없이 customAxios가 설정됨 
-// 이후 새로고침을 하지않으면 customAxios 설정은 바뀌지 않고 token값이 없이 실행되게됨
-// 이를 수정하려고 아래와 같은 로직 사용
-// customAxios에서 api 요청전 실행되는 함수로 매 API 호출전 accessToken를 새로 초기화 해주도록 처리
 customAxios.interceptors.request.use(
   (config) => {
-// config에는 axios요청시 입력한 config가 들어있습니다.
-    const accessToken = localStorage.getItem("accessToken");
+    const accessToken = localStorage.getItem("accessToken")||"";
     config.headers.Authorization = accessToken
       ? `Bearer ${accessToken}`
       : "";
