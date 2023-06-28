@@ -545,13 +545,12 @@ prettier: 2.8.8
 <p align="right"><a href="#top">(Top)</a></p>
 
 <br/>
-![게시글수정](https://github.com/24-gitTest/demo-repository/assets/87430624/d38c81a0-98da-4558-9a1e-b9e8e6add6c5)
 
 ## 10. 페이지 캡쳐
 ### 1) 홈
 |시작 화면|회원가입 페이지|로그인 페이지|
 |---|---|---|
-|![splash](https://user-images.githubusercontent.com/112460383/210291447-6c88dc14-ba44-4870-af05-7d40c589fe5a.gif)|![회원가입](https://user-images.githubusercontent.com/112460383/210291056-665177a0-08af-4765-9d7c-a79946dd5f91.gif)|![로그인](https://user-images.githubusercontent.com/112460383/210291068-b8cbf123-455c-4dd2-b8aa-c6150bc0b762.gif)|
+|![게시글수정](https://github.com/24-gitTest/demo-repository/assets/87430624/d38c81a0-98da-4558-9a1e-b9e8e6add6c5)|![회원가입](https://user-images.githubusercontent.com/112460383/210291056-665177a0-08af-4765-9d7c-a79946dd5f91.gif)|![로그인](https://user-images.githubusercontent.com/112460383/210291068-b8cbf123-455c-4dd2-b8aa-c6150bc0b762.gif)|
 
 |피드 페이지|검색 페이지|404 페이지|
 |:---:|:---:|:---:|
