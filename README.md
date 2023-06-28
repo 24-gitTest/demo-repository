@@ -639,7 +639,7 @@ customAxios.interceptors.request.use(
 ```
 <br/>
 
-### 2 ) loadsh 라이브러리 debunce 기능을 이용한 검색 최적화
+### 2 ) loadsh 라이브러리 debounce 기능을 이용한 검색 최적화
 - 기존 검색시 onChange 이벤트에서 input의 변화가 감지될 때 마다 API요청이 발생하여 불필요한 API 요청이 발생합니다.
 - debounce => 일정 시간이 경과한 이후 onChange 이벤트를 한 번만 호출하게 하여 불필요한 호출을 막아줍니다.
 - 검색시 설정한 시간 동안 입력이 없다면 그때 이벤트를 호출합니다.
