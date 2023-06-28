@@ -1,6 +1,5 @@
 # <span id='top'> 수수마켓</span>
 <img src="https://user-images.githubusercontent.com/87430624/249447353-0b92eb21-66fe-45c2-a542-24cb614e2962.png" width="1000" />
-<img src="https://user-images.githubusercontent.com/87430624/249447535-a7dc19ae-5ac2-461e-b179-ab402eaaf728.png" width="1000" />
 
 > 📎 <a href='#'>배포 URL</a> <br/>
 > 
@@ -769,9 +768,9 @@ export const imgValidation = (file) => {
 
 <br/>
   
-## 13. 프로젝트 발표 자료 및 시연 영상
-* <a href=''>발표 노션 링크</a>
-	    
+## 13. 프로젝트 발표 자료
+* <a href='https://www.notion.so/86a44b57c0604ae593842473782eddac'>발표자료 링크</a>
+
 <br/>
 
 <p align="right"><a href="#top">(Top)</a></p>
