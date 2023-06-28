@@ -189,6 +189,13 @@ prettier: 2.8.8
 * 소규모 프로젝트에 맞게 Main, Develop, Feature 세 Branch를 사용하는 전략 사용
 * Merge 대신 Rebase를 사용하여 보기 좋은 커밋 히스토리를 유지함
 
+### 😆 Git&GitHub 가이드 문서작성
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/abdc6240-c3d4-4a07-b124-8485c981e55c)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/e1344c77-ae4f-4667-878a-ea3ef935579b)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/b4d03d78-d121-499d-a4f2-845d6b9200a1)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/582999e7-14cb-441e-ad8b-44f68cac6565)
+
+
 <br/>
 
 <p align="right"><a href="#top">(Top)</a></p>
@@ -342,13 +349,7 @@ prettier: 2.8.8
 - 이슈 진행 상황을 한 눈에 볼 수 있도록 칸반 보드 형태로 시각화
 
 <br/>
-   
-### 😆 Git 컨벤션 문서작성
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/abdc6240-c3d4-4a07-b124-8485c981e55c)
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/e1344c77-ae4f-4667-878a-ea3ef935579b)
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/b4d03d78-d121-499d-a4f2-845d6b9200a1)
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/582999e7-14cb-441e-ad8b-44f68cac6565)
-
+  
 <br/>
 
 <p align="right"><a href="#top">(Top)</a></p>
