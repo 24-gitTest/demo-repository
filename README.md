@@ -598,7 +598,21 @@ prettier: 2.8.8
 - 구현 후 문제점: 구현후 최초 로그인시 새로고침을 하지 않으면 customAxios의 accessToken 값이 바뀌지 않는 이슈 발생
 - axios의 interceptors.requset.use를 통해 해결 => axios 요청과 응답에 대한 전/후 처리와 오류 처리가 가능
 - config 인자를 통해 axios 설정 가능 => config.headers.Authorization로 accessToken 설정
+  
+초기 customAxios
+```javascript
+import axios from "axios";
 
+export const customAxios = axios.create({
+  baseURL: process.env.REACT_APP_BASE_URL,
+  headers: {
+    "Authorization" : localStorage.getItem("accessToken") || "",
+    "Content-Type": "application/json", // default 값
+  },
+});
+```
+
+변경 후 customAxios
 ```javascript
 import axios from "axios";
 
@@ -610,11 +624,10 @@ export const customAxios = axios.create({
 });
 
 // axios 요청전 토큰을 불러와서 적용시켜줌
-// 초기 로그인시 customAxios가 호출됨 이때는 token 값 없이 customAxios가 설정됨 
+// 초기 로그인시 customAxios가 호출됨 이때는 localStorage에는 token 값 없기 때문에 token 값 없이 customAxios가 설정됨 
 // 이후 새로고침을 하지않으면 customAxios 설정은 바뀌지 않고 token값이 없이 실행되게됨
 // 이를 수정하려고 아래와 같은 로직 사용
 // customAxios에서 api 요청전 실행되는 함수로 매 API 호출전 accessToken를 새로 초기화 해주도록 처리
-// https://velog.io/@liankim/customizing-axios 관련 레퍼런스
 customAxios.interceptors.request.use(
   (config) => {
 // config에는 axios요청시 입력한 config가 들어있습니다.
@@ -667,9 +680,9 @@ customAxios.interceptors.request.use(
 
 ### 3 ) 예외처리
 
-- 게시물, 상품 페이지 에서 존재하지 않는 게시물 페이지로 접속시 자신의 accountname가 작성자의 accountname이 다르면
-  조건부 렌더링을 통해 다른 UI를 보여주었습니다.
-- 프로필 편집, 게시물 수정, 상품 수정 페이지에서 작성자가 아니라면 페이지에 접속하지 못하도록 제한하였습니다.
+- 게시물, 상품 페이지 에서 존재하지 않는 게시물 페이지로 접속시  조건부 렌더링을 통해 다른 UI를 보여주었습니다.
+- 프로필 편집 페이지에서 자신의 accountname과 일치하지 않는다면 페이지에 접속하면 useNavigate 훅을 이용하여 profile 페이지로 리다이렉트 되도록하였습니다.
+- 게시물 수정, 상품 수정 페이지 작성자가 아니라면 페이지에 접속하면 useNavigate 훅을 이용하여 post 페이지로 리다이렉트 되도록하였습니다.
 - 프로필 수정 시 수정사항이 없을 때 수정이 되지 않도록 막아 필요없는 API요청을 막습니다.
   
 - 구현 화면
