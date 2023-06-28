@@ -80,7 +80,121 @@ prettier: 2.8.8
 
 <br/>
 
-## 4.🗓️ 프로젝트 관리 및 진행
+## 4.🗓️ 개발 일정
+#### 🔥 2023-06-02 ~ 2023-06-27
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/4e0c7d4c-59b8-42d7-9f04-64b9b9a66b97)
+<details>
+  <summary><b>팀 미팅, 프로젝트 계획 : 2023-06-02 ~ 2023-06-05</b></summary>
+  <div markdown="1">
+    <ul>
+     <li>아이스 브레이킹</li>
+     <li>프로젝트 주제 토의</li>
+     <li>사용 기술 스택정하기</li>
+     <li>개인 공부</li>
+     <li>깃&깃헙 전략 이해</li>
+    </ul>
+  </div>
+</details>
+<details>
+  <summary><b>컨벤션 및 api학습을 위한 사전과제 진행 : 2023-06-08 ~ 2023-06-11</b></summary>
+  <div markdown="1">
+    사전과제(날씨앱)
+   <p> 사전과제(날씨앱)을 함으로써 얻었던 이점
+    기대효과 프로젝트에 사용되는 기능을 미리 사용해봄으로써 직후 1차 기능 구현할 때 도움이 됨 <br>
+    - 코드 컨벤션 연습 <br>
+    - API 비동기 이해 <br>
+    - styled-component 학습 <br>
+    https://github.com/24-test-project/weatherapp
+   </p>
+  </div>
+</details>
+<details>
+  <summary><b>요구사항 파악 및 프로젝트 규칙 설립 : 2023-06-08 ~ 2023-06-12</b></summary>
+  <div markdown="1">
+    <ul>
+     <li>팀 규칙</li>
+     <li>기획, 디자인</li>
+     <li>prettier 설정</li>
+     <li>코드 컨벤션 설정</li>
+     <li>git 컨벤션 설정</li>
+     <li>폴더 구조</li>
+     <li>공통 컴포넌트 지정</li>
+     <li>GlobalStyle 설정</li>
+    </ul>
+  </div>
+</details>
+<details>
+  <summary><b>공통UI 컴포넌트 개발 : 2023-06-12 ~ 2023-06-14</b></summary>
+  <div markdown="1">
+    <ul>
+     <li>라우터 설정</li>
+     <li>공통으로 사용되는 버튼 제작 ( s, m, ms, l, disabled …)</li>
+     <li>에러 메시지</li>
+     <li>스플래시 화면 개발</li>
+     <li>로그인 시작 페이지 개발</li>
+    </ul>
+   스타일드 컴포넌트 좀 더 익숙해지기 위함
+  </div>
+</details>
+<details>
+  <summary><b>1차 개발 : 2023-06-14 ~ 2023-06-19</b></summary>
+  <div markdown="1">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/87430624/249535797-acf0a71a-2645-4469-83fb-38a1ab6fd39c.png"/>
+
+  </div>
+</details>
+<details>
+  <summary><b>2차 개발 : 2023-06-19 ~ 2023-06-24</b></summary>
+  <div markdown="1">
+
+<img src="https://github.com/24-gitTest/demo-repository/assets/87430624/3beb9c15-3633-489f-af1d-efd5c7ee1c8d"/>
+
+   팔로우 좋아요 게시물작성(3개까지) 캔버스 댓글
+  </div>
+</details>
+<details>
+  <summary><b>버그 수정 및 유지보수 : 2023-06-24 ~ 2023-06-27</b></summary>
+  <div markdown="1">
+   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/33db4bf8-b0dd-4f5e-8d0e-d23a1e2bd0d7"/>
+   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/0df4e7f1-b267-4aa5-a130-a3f270ef075d"/>
+"
+  </div>
+</details>
+<details>
+  <summary><b>버그 수정 및 유지보수 : 2023-06-24 ~ 2023-06-27</b></summary>
+  <div markdown="1">
+   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/6a7fad2a-263b-4b14-9d71-64e037120df0"/>"
+  </div>
+</details>
+
+<br/>
+
+<p align="right"><a href="#top">(Top)</a></p>
+
+
+
+## 5.📌 Git Branch 전략
+![GitBranch](https://github.com/24-gitTest/demo-repository/assets/87430624/745e1de4-2428-48f4-b97f-f9af03eae4f3)
+
+* 소규모 프로젝트에 맞게 Main, Develop, Feature 세 Branch를 사용하는 전략 사용
+* Merge 대신 Rebase를 사용하여 보기 좋은 커밋 히스토리를 유지함
+
+### 😆 Git&GitHub 가이드 문서작성
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/abdc6240-c3d4-4a07-b124-8485c981e55c)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/e1344c77-ae4f-4667-878a-ea3ef935579b)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/b4d03d78-d121-499d-a4f2-845d6b9200a1)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/582999e7-14cb-441e-ad8b-44f68cac6565)
+
+
+<br/>
+
+<p align="right"><a href="#top">(Top)</a></p>
+
+<br/>
+
+<br/>
+
+## 6.🗓️ 프로젝트 관리 및 진행
 
 ### 📊 프로젝트 진행 상황 관리
 
@@ -179,121 +293,6 @@ prettier: 2.8.8
 
 <p align="right"><a href="#top">TOP 🔼</a></p>
 <br>
-
-
-
-
-## 5.📌 Git Branch 전략
-![GitBranch](https://github.com/24-gitTest/demo-repository/assets/87430624/745e1de4-2428-48f4-b97f-f9af03eae4f3)
-
-* 소규모 프로젝트에 맞게 Main, Develop, Feature 세 Branch를 사용하는 전략 사용
-* Merge 대신 Rebase를 사용하여 보기 좋은 커밋 히스토리를 유지함
-
-### 😆 Git&GitHub 가이드 문서작성
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/abdc6240-c3d4-4a07-b124-8485c981e55c)
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/e1344c77-ae4f-4667-878a-ea3ef935579b)
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/b4d03d78-d121-499d-a4f2-845d6b9200a1)
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/582999e7-14cb-441e-ad8b-44f68cac6565)
-
-
-<br/>
-
-<p align="right"><a href="#top">(Top)</a></p>
-
-<br/>
-
-## 6.🗓️ 개발 일정
-#### 🔥 2023-06-02 ~ 2023-06-27
-![image](https://github.com/24-gitTest/demo-repository/assets/87430624/4e0c7d4c-59b8-42d7-9f04-64b9b9a66b97)
-<details>
-  <summary><b>팀 미팅, 프로젝트 계획 : 2023-06-02 ~ 2023-06-05</b></summary>
-  <div markdown="1">
-    <ul>
-     <li>아이스 브레이킹</li>
-     <li>프로젝트 주제 토의</li>
-     <li>사용 기술 스택정하기</li>
-     <li>개인 공부</li>
-     <li>깃&깃헙 전략 이해</li>
-    </ul>
-  </div>
-</details>
-<details>
-  <summary><b>컨벤션 및 api학습을 위한 사전과제 진행 : 2023-06-08 ~ 2023-06-11</b></summary>
-  <div markdown="1">
-    사전과제(날씨앱)
-   <p> 사전과제(날씨앱)을 함으로써 얻었던 이점
-    기대효과 프로젝트에 사용되는 기능을 미리 사용해봄으로써 직후 1차 기능 구현할 때 도움이 됨 <br>
-    - 코드 컨벤션 연습 <br>
-    - API 비동기 이해 <br>
-    - styled-component 학습 <br>
-    https://github.com/24-test-project/weatherapp
-   </p>
-  </div>
-</details>
-<details>
-  <summary><b>요구사항 파악 및 프로젝트 규칙 설립 : 2023-06-08 ~ 2023-06-12</b></summary>
-  <div markdown="1">
-    <ul>
-     <li>팀 규칙</li>
-     <li>기획, 디자인</li>
-     <li>prettier 설정</li>
-     <li>코드 컨벤션 설정</li>
-     <li>git 컨벤션 설정</li>
-     <li>폴더 구조</li>
-     <li>공통 컴포넌트 지정</li>
-     <li>GlobalStyle 설정</li>
-    </ul>
-  </div>
-</details>
-<details>
-  <summary><b>공통UI 컴포넌트 개발 : 2023-06-12 ~ 2023-06-14</b></summary>
-  <div markdown="1">
-    <ul>
-     <li>라우터 설정</li>
-     <li>공통으로 사용되는 버튼 제작 ( s, m, ms, l, disabled …)</li>
-     <li>에러 메시지</li>
-     <li>스플래시 화면 개발</li>
-     <li>로그인 시작 페이지 개발</li>
-    </ul>
-   스타일드 컴포넌트 좀 더 익숙해지기 위함
-  </div>
-</details>
-<details>
-  <summary><b>1차 개발 : 2023-06-14 ~ 2023-06-19</b></summary>
-  <div markdown="1">
-  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/87430624/249535797-acf0a71a-2645-4469-83fb-38a1ab6fd39c.png"/>
-
-  </div>
-</details>
-<details>
-  <summary><b>2차 개발 : 2023-06-19 ~ 2023-06-24</b></summary>
-  <div markdown="1">
-
-<img src="https://github.com/24-gitTest/demo-repository/assets/87430624/3beb9c15-3633-489f-af1d-efd5c7ee1c8d"/>
-
-   팔로우 좋아요 게시물작성(3개까지) 캔버스 댓글
-  </div>
-</details>
-<details>
-  <summary><b>버그 수정 및 유지보수 : 2023-06-24 ~ 2023-06-27</b></summary>
-  <div markdown="1">
-   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/33db4bf8-b0dd-4f5e-8d0e-d23a1e2bd0d7"/>
-   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/0df4e7f1-b267-4aa5-a130-a3f270ef075d"/>
-"
-  </div>
-</details>
-<details>
-  <summary><b>버그 수정 및 유지보수 : 2023-06-24 ~ 2023-06-27</b></summary>
-  <div markdown="1">
-   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/6a7fad2a-263b-4b14-9d71-64e037120df0"/>"
-  </div>
-</details>
-
-<br/>
-
-<p align="right"><a href="#top">(Top)</a></p>
-
-<br/>
 
 ## 7.👥 협업 문화
 
