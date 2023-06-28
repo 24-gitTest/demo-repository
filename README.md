@@ -554,7 +554,7 @@ prettier: 2.8.8
 
 |피드 페이지|검색 페이지|404 페이지|
 |:---:|:---:|:---:|
-|![피드](https://user-images.githubusercontent.com/96304623/210295642-159ff856-28a3-4300-9c5b-9d788509f3d5.gif)|![검색](https://user-images.githubusercontent.com/96304623/210296023-b8688b87-d0ea-40a7-a82d-bb623e1aadd0.gif)|<img width="390" alt="404" src="https://user-images.githubusercontent.com/87430624/249319320-6686e278-729c-4441-b572-7bd0ddeb4b43.gif">|
+|![피드](https://user-images.githubusercontent.com/96304623/210295642-159ff856-28a3-4300-9c5b-9d788509f3d5.gif)|![검색](https://user-images.githubusercontent.com/96304623/210296023-b8688b87-d0ea-40a7-a82d-bb623e1aadd0.gif)|<img width="390;" alt="404" src="https://user-images.githubusercontent.com/87430624/249319320-6686e278-729c-4441-b572-7bd0ddeb4b43.gif">|
 
 ### 2) 채팅
 |채팅 목록 페이지|채팅방 페이지|채팅방 나가기|
