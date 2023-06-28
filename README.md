@@ -550,7 +550,7 @@ prettier: 2.8.8
 ### 1) 홈
 |시작 화면|회원가입 페이지|로그인 페이지|
 |---|---|---|
-|![splash](https://user-images.githubusercontent.com/87430624/249319346-a5a4c19e-3bd7-457a-8d05-48fbc24d939d.gif)|![회원가입](https://user-images.githubusercontent.com/112460383/210291056-665177a0-08af-4765-9d7c-a79946dd5f91.gif)|![로그인](https://user-images.githubusercontent.com/87430624/249319406-98aab599-d54b-4f7b-b85b-cfefe35bcef7.gif)|
+|![splash](https://user-images.githubusercontent.com/87430624/249319346-a5a4c19e-3bd7-457a-8d05-48fbc24d939d.gif)|![회원가입](https://user-images.githubusercontent.com/87430624/249319546-6693669f-378c-47d6-b46b-d5a1d004f46b.gif)|![로그인](https://user-images.githubusercontent.com/87430624/249319406-98aab599-d54b-4f7b-b85b-cfefe35bcef7.gif)|
 
 |피드 페이지|검색 페이지|404 페이지|
 |:---:|:---:|:---:|
@@ -577,7 +577,7 @@ prettier: 2.8.8
 
 |프로필 수정 페이지|팔로워/팔로잉 페이지|로그아웃 기능|
 |:---:|:---:|:---:|
-|![프로필 수정](https://user-images.githubusercontent.com/112460383/210291099-c25c451b-2427-49ba-b956-e21016e9568e.gif)|![팔로우페이지](https://user-images.githubusercontent.com/87430624/249319422-38a0c159-2dcb-43f3-bf98-1ca0aff1ea5f.gif)|![로그아웃](https://user-images.githubusercontent.com/105365737/210326565-7d532cb8-ba35-48d4-aea2-301f89e059ae.gif)|
+|![프로필 수정](https://user-images.githubusercontent.com/87430624/249319554-fdcc9133-b3e7-4c47-a870-a26557907759.gif)|![팔로우페이지](https://user-images.githubusercontent.com/87430624/249319422-38a0c159-2dcb-43f3-bf98-1ca0aff1ea5f.gif)|![로그아웃](https://user-images.githubusercontent.com/105365737/210326565-7d532cb8-ba35-48d4-aea2-301f89e059ae.gif)|
 
 
 ### 5) 판매 상품
@@ -588,8 +588,7 @@ prettier: 2.8.8
 ### 6) 집사생활
 |집사생활 메인 페이지|산책 난이도 페이지|동물병원 페이지|
 |---|---|---|
-|![메인](https://user-images.githubusercontent.com/105365737/210323985-41e486ed-afb0-41a4-a37f-be300894360a.gif)|![산책 난이도 메인](https://user-images.githubusercontent.com/105365737/210324801-30095b20-6a74-43f6-940a-4170197db760.gif)|![동물병원](https://user-images.githubusercontent.com/105365737/210325566-58991115-4e9e-489e-9706-9b4290ef72bc.gif)|
-https://user-images.githubusercontent.com/87430624/249319394-1e08b191-b99c-4bfe-adcc-9940830c2ab7.gif
+|![메인]()|![산책 난이도 메인]()|![동물병원]()|
 
 <br/>
 
