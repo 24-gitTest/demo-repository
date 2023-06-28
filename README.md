@@ -343,55 +343,11 @@ prettier: 2.8.8
 
 <br/>
    
-💥**Git 기본 협업 컨벤션**💥
-    
-   ## Git 협업 컨벤션 (24시간이 모자라조)
-    
-   ### `**이슈 등록**`을 합니다. (해야할 기능 및 작업에 대한 글을 알리는게 우선입니다.)
-    
-   - 깃허브에서 이슈등록을 합니다.
-   - 이슈템플릿이 있으니 활용하시길 바랍니다.
-   - 타이틀 제목, Assignees, Labels, Projects 설정을 다 해주고 올리는거 잊지 마세요.
-    
-   ![이슈작성 페이지](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/baa166c7-5fdf-460e-9934-df0fa4ab41ff/Untitled.png)
-    
-   이슈작성 페이지
-    
-   ### 이슈 등록이 끝나고 기능브랜치 생성
-    
-   - 오른쪽 하단에 `Create a branch`를 클릭합니다.
-    
-   ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2110666e-4c40-4ee1-bdc3-fb9aaf58d1e9/Untitled.png)
-    
-   - 아래 창 그대로 셋팅 후 `Create branch` 눌러서 원격저장소(깃허브 레포)에 branch를 만듭니다.
-   - Create branch를 눌러서 나온 명령어를 가지고 원격저장소에서 만든 브랜치를 로컬 저장소에서도 동일하게 만듭니다.
-        
-       ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ab88b24-df79-48b2-95fc-ffa6095d3e9f/Untitled.png)
-        
-   - 그 후 나오는 명령어를 복사해 gitbash터미널에 입력.
-   - branch 생성 후 브랜치 이동까지 됩니다.
-    
-   ### 기능 브랜치에서 작업합니다.
-    
-   - 작업하면서 중간중간 커밋 남겨주세요.
-   - 이슈에 작성했던 체크리스트가 해결될때 마다 완료되었다고 체크해주세요.
-   - 작업 완료시 dev로 Push합니다.
-   
-   ### 로컬 브랜치에서 원격 dev브랜치로 Push
-    
-   - `git fetch origin dev` - 원격저장소 `origin의 dev 브랜치`에서 변경사항(커밋)을 업데이트합니다.
-   - `git rebase origin/dev` - 현재 브랜치를 **`origin/dev`** 브랜치로 리베이스하는 역할, **`git rebase`** 명령어를 사용하면 현재 브랜치를 대상 브랜치의 최신 커밋 위로 이동시킬 수 있습니다.
-   - `git log` - 실행하면, 현재 브랜치의 커밋들이 시간 순서대로 출력됩니다. (커밋내역 확인 시 사용)
-   - `git push origin 브랜치명` - Git 명령어로, 현재 로컬 브랜치를 원격 저장소(**`origin`**)에 푸시하는 역할
-   
-   ### PR요청
-   
-   1. 기능 브랜치에서 dev브랜치로 올릴 때 PR(Pull Request)를 해야 합니다. 
-       
-       깃허브 페이지에서 PR요청을 합니다. 이때도 PR요청글 작성시 타이틀 제목, Assignees, Labels, Projects 설정을 다 해주고 올리는거 잊지 마세요.
-       
-   2. PR승인을 2명이상 해주면 dev에 푸쉬되어 코드가 rebase되고 커밋내역 히스토리가 예쁘게 만들어 집니다.
-  </div>
+### 😆 Git 컨벤션 문서작성
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/abdc6240-c3d4-4a07-b124-8485c981e55c)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/e1344c77-ae4f-4667-878a-ea3ef935579b)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/b4d03d78-d121-499d-a4f2-845d6b9200a1)
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/582999e7-14cb-441e-ad8b-44f68cac6565)
 
 <br/>
 
