@@ -512,8 +512,8 @@ export const imgValidation = (file) => {
 
 #### 4 ) 무한스크롤
 - 무한스크롤을 이용하여 데이터를 일부만 가져와 서버의 부담을 줄이고 로딩속도를 개선 하였습니다.
-- react-intesection-observer 라이브러리를 이용하여 무한스크롤을 구현하였습니다.
-- react-intesection-observer의 useView()의 ref값을 관찰요소 ref값에 넣으면 관찰요소를 지정할 수 있습니다.
+- react-intersection-observer 라이브러리를 이용하여 무한스크롤을 구현하였습니다.
+- react-intersection-observer 라이브러이의 useView()의 ref값을 관찰요소 ref값에 넣으면 관찰요소를 지정할 수 있습니다.
 - 만약 관찰요소가 화면 출력되면 inView true로 화면에서 사라진다면 false로 변경되게 됩니다.
 - hasMore를 통해 다음 데이터가 없다면 api 요청을 일어나지 않게 조건을 걸어 주었습니다.
 - hasMore는 현재 API에서 받아온 post의 length와 limt가 같은지 비교하여 다음 데이터가 있는지 판단해줍니다.
