@@ -554,12 +554,12 @@ prettier: 2.8.8
 
 |피드 페이지|검색 페이지|404 페이지|
 |:---:|:---:|:---:|
-|![피드](https://user-images.githubusercontent.com/96304623/210295642-159ff856-28a3-4300-9c5b-9d788509f3d5.gif)|![검색](https://user-images.githubusercontent.com/87430624/249319334-184c2a9e-57a9-4d56-bbbc-f58a44033fc2.gif)|<img width="390;" alt="404" src="https://user-images.githubusercontent.com/87430624/249319320-6686e278-729c-4441-b572-7bd0ddeb4b43.gif">|
+|![피드](https://user-images.githubusercontent.com/87430624/249322177-72e50afc-c707-4241-ac05-6c79089946e2.gif)|![검색](https://user-images.githubusercontent.com/87430624/249319334-184c2a9e-57a9-4d56-bbbc-f58a44033fc2.gif)|<img width="390;" alt="404" src="https://user-images.githubusercontent.com/87430624/249319320-6686e278-729c-4441-b572-7bd0ddeb4b43.gif">|
 
 ### 2) 채팅
 |채팅 목록 페이지|채팅방 페이지|채팅방 나가기|
 |---|---|---|
-|![최종_채팅룸리스트_AdobeExpress](https://user-images.githubusercontent.com/87430624/249319420-598a4b8f-cf19-4105-96cd-4b86cfe0ff27.gif)|![최종_채팅코멘트_AdobeExpress](https://user-images.githubusercontent.com/57481378/210287916-04aed2c6-c568-47a0-a804-50ecb66d0228.gif)|![채팅방나가기_AdobeExpress](https://user-images.githubusercontent.com/57481378/210504719-6bdcabc4-7683-49c7-83b4-f635bb53cc31.gif)|
+|![최종_채팅룸리스트_AdobeExpress](https://user-images.githubusercontent.com/87430624/249319420-598a4b8f-cf19-4105-96cd-4b86cfe0ff27.gif)|
 
 ### 3) 게시글
 |게시글 상세 페이지|게시글 작성 페이지|게시글 수정 페이지|
@@ -573,11 +573,11 @@ prettier: 2.8.8
 ### 4) 프로필
 |마이 프로필 페이지|유어 프로필 페이지|리스트형/앨범형 보기|
 |---|---|---|
-|![마이 프로필](https://user-images.githubusercontent.com/96304623/210295096-170ce4e2-5954-4e07-bcb2-e9c68252da96.gif)|![유어프로필](https://user-images.githubusercontent.com/96304623/210295123-89ec90ce-791f-4f71-9aa4-41c6bec706dc.gif)|![앨범형리스트형](https://user-images.githubusercontent.com/96304623/210295252-2d7ebb2c-872c-4cee-aae2-0681f9d1acd7.gif)|
+|![앨범형리스트형](https://user-images.githubusercontent.com/87430624/249322185-a3f628e7-a19f-457b-8db6-89b64109de79.gif)|
 
 |프로필 수정 페이지|팔로워/팔로잉 페이지|로그아웃 기능|
 |:---:|:---:|:---:|
-|![프로필 수정](https://user-images.githubusercontent.com/87430624/249319554-fdcc9133-b3e7-4c47-a870-a26557907759.gif)|![팔로우페이지](https://user-images.githubusercontent.com/87430624/249319422-38a0c159-2dcb-43f3-bf98-1ca0aff1ea5f.gif)|![로그아웃](https://user-images.githubusercontent.com/105365737/210326565-7d532cb8-ba35-48d4-aea2-301f89e059ae.gif)|
+|![프로필 수정](https://user-images.githubusercontent.com/87430624/249322193-b6881f77-f41b-4c55-8ed3-c27e22ffbd05.gif)|![팔로우페이지](https://user-images.githubusercontent.com/87430624/249319422-38a0c159-2dcb-43f3-bf98-1ca0aff1ea5f.gif)|
 
 
 ### 5) 판매 상품
