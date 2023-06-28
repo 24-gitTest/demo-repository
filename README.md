@@ -576,8 +576,7 @@ prettier: 2.8.8
 |![상품 등록](https://user-images.githubusercontent.com/87430624/249319407-d702a7b8-a95e-47be-91d6-2f5d2fbbdf61.gif)|![상품 수정](https://user-images.githubusercontent.com/87430624/249319414-51176a23-ea3e-4340-8c15-68f375b389c7.gif)|![상품 삭제](https://user-images.githubusercontent.com/87430624/249319410-014593a9-5c4c-4788-8e91-862b500d7d5c.gif)|
 
 ### 6) 캔버스
-|---|---|---|
-|![캔버스](https://user-images.githubusercontent.com/47853679/249449344-9c97413c-5b8a-400a-9693-c9111e8d44f9.gif)|
+![캔버스](https://user-images.githubusercontent.com/47853679/249449344-9c97413c-5b8a-400a-9693-c9111e8d44f9.gif)
 <br/>
 
 <p align="right"><a href="#top">(Top)</a></p>
