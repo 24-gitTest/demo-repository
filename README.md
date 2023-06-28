@@ -571,13 +571,9 @@ prettier: 2.8.8
 |![최종_게시글삭제](https://user-images.githubusercontent.com/87430624/249319358-dafecbbe-5831-4d28-9f3b-a7eb9f160773.gif)|![최종_게시글신고](https://user-images.githubusercontent.com/87430624/249319402-34811ede-f741-4b54-99b1-1a5f16b087f8.gif)|![최종_게시물댓글](https://user-images.githubusercontent.com/87430624/249319399-5c240e21-ba0d-4df6-860f-28ace1eaf949.gif)|
 
 ### 4) 프로필
-|마이 프로필 페이지|유어 프로필 페이지|리스트형/앨범형 보기|
-|---|---|---|
-|![앨범형리스트형](https://user-images.githubusercontent.com/87430624/249322185-a3f628e7-a19f-457b-8db6-89b64109de79.gif)|
-
-|프로필 수정 페이지|팔로워/팔로잉 페이지|로그아웃 기능|
+|마이 프로필 페이지|프로필 수정 페이지|팔로워/팔로잉 페이지|
 |:---:|:---:|:---:|
-|![프로필 수정](https://user-images.githubusercontent.com/87430624/249322193-b6881f77-f41b-4c55-8ed3-c27e22ffbd05.gif)|![팔로우페이지](https://user-images.githubusercontent.com/87430624/249319422-38a0c159-2dcb-43f3-bf98-1ca0aff1ea5f.gif)|
+|![앨범형리스트형](https://user-images.githubusercontent.com/87430624/249322185-a3f628e7-a19f-457b-8db6-89b64109de79.gif)|![프로필 수정](https://user-images.githubusercontent.com/87430624/249322193-b6881f77-f41b-4c55-8ed3-c27e22ffbd05.gif)|![팔로우페이지](https://user-images.githubusercontent.com/87430624/249319422-38a0c159-2dcb-43f3-bf98-1ca0aff1ea5f.gif)|
 
 
 ### 5) 판매 상품
