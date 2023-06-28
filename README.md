@@ -275,6 +275,12 @@ prettier: 2.8.8
 "
   </div>
 </details>
+<details>
+  <summary><b>버그 수정 및 유지보수 : 2023-06-24 ~ 2023-06-27</b></summary>
+  <div markdown="1">
+   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/6a7fad2a-263b-4b14-9d71-64e037120df0"/>"
+  </div>
+</details>
 
 <br/>
 
