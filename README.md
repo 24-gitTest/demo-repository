@@ -254,15 +254,20 @@ prettier: 2.8.8
 <details>
   <summary><b>1차 개발 : 2023-06-14 ~ 2023-06-19</b></summary>
   <div markdown="1">
-    <ul>
-    </ul>
+ ![image](https://github.com/24-gitTest/demo-repository/assets/87430624/acf0a71a-2645-4469-83fb-38a1ab6fd39c)
+
   </div>
 </details>
 <details>
   <summary><b>2차 개발 : 2023-06-19 ~ 2023-06-24</b></summary>
   <div markdown="1">
     <ul>
+     <li>Search, followers, followering</li>
+     <li>profileEdit, userProfile</li>
+     <li>productDetail, productEdit, productUpload</li>
+     <li>postDetail, postEdit, postUpload</li>
     </ul>
+   팔로우 좋아요 게시물작성(3개까지) 캔버스 댓글
   </div>
 </details>
 <details>
