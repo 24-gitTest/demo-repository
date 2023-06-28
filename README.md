@@ -550,25 +550,25 @@ prettier: 2.8.8
 ### 1) 홈
 |시작 화면|회원가입 페이지|로그인 페이지|
 |---|---|---|
-|![게시글수정](https://github.com/24-gitTest/demo-repository/assets/87430624/d38c81a0-98da-4558-9a1e-b9e8e6add6c5)|![회원가입](https://user-images.githubusercontent.com/112460383/210291056-665177a0-08af-4765-9d7c-a79946dd5f91.gif)|![로그인](https://user-images.githubusercontent.com/112460383/210291068-b8cbf123-455c-4dd2-b8aa-c6150bc0b762.gif)|
+|![splash](https://user-images.githubusercontent.com/87430624/249319346-a5a4c19e-3bd7-457a-8d05-48fbc24d939d.gif)|![회원가입](https://user-images.githubusercontent.com/112460383/210291056-665177a0-08af-4765-9d7c-a79946dd5f91.gif)|![로그인](https://user-images.githubusercontent.com/87430624/249319406-98aab599-d54b-4f7b-b85b-cfefe35bcef7.gif)|
 
 |피드 페이지|검색 페이지|404 페이지|
 |:---:|:---:|:---:|
-|![피드](https://user-images.githubusercontent.com/96304623/210295642-159ff856-28a3-4300-9c5b-9d788509f3d5.gif)|![검색](https://user-images.githubusercontent.com/96304623/210296023-b8688b87-d0ea-40a7-a82d-bb623e1aadd0.gif)|<img width="390;" alt="404" src="https://user-images.githubusercontent.com/87430624/249319320-6686e278-729c-4441-b572-7bd0ddeb4b43.gif">|
+|![피드](https://user-images.githubusercontent.com/96304623/210295642-159ff856-28a3-4300-9c5b-9d788509f3d5.gif)|![검색](https://user-images.githubusercontent.com/87430624/249319334-184c2a9e-57a9-4d56-bbbc-f58a44033fc2.gif)|<img width="390;" alt="404" src="https://user-images.githubusercontent.com/87430624/249319320-6686e278-729c-4441-b572-7bd0ddeb4b43.gif">|
 
 ### 2) 채팅
 |채팅 목록 페이지|채팅방 페이지|채팅방 나가기|
 |---|---|---|
-|![최종_채팅룸리스트_AdobeExpress](https://user-images.githubusercontent.com/57481378/210287894-12adc22e-8fba-45e0-9ec0-b5e37de207ea.gif)|![최종_채팅코멘트_AdobeExpress](https://user-images.githubusercontent.com/57481378/210287916-04aed2c6-c568-47a0-a804-50ecb66d0228.gif)|![채팅방나가기_AdobeExpress](https://user-images.githubusercontent.com/57481378/210504719-6bdcabc4-7683-49c7-83b4-f635bb53cc31.gif)|
+|![최종_채팅룸리스트_AdobeExpress](https://user-images.githubusercontent.com/87430624/249319420-598a4b8f-cf19-4105-96cd-4b86cfe0ff27.gif)|![최종_채팅코멘트_AdobeExpress](https://user-images.githubusercontent.com/57481378/210287916-04aed2c6-c568-47a0-a804-50ecb66d0228.gif)|![채팅방나가기_AdobeExpress](https://user-images.githubusercontent.com/57481378/210504719-6bdcabc4-7683-49c7-83b4-f635bb53cc31.gif)|
 
 ### 3) 게시글
 |게시글 상세 페이지|게시글 작성 페이지|게시글 수정 페이지|
 |---|---|---|
-|![게시물상세](https://user-images.githubusercontent.com/96304623/210327734-b5def302-318f-4ccd-a0ce-537e1868d6c2.gif)|![게시물작성](https://user-images.githubusercontent.com/96304623/210326906-3f5e12fc-73fc-4509-8b01-f21e5f4bf3a3.gif)|![게시물수정](https://user-images.githubusercontent.com/96304623/210327100-8cf37187-3faf-41a8-a157-e4185a17648e.gif)|
+|![게시물상세](https://user-images.githubusercontent.com/87430624/249319366-cc84b138-8b87-4a73-9eaa-d9e77ae67bc0.gif)|![게시물작성](https://user-images.githubusercontent.com/87430624/249319375-2659391d-f4ee-4d78-a240-122b238787a3.gif)|![게시물수정](https://user-images.githubusercontent.com/87430624/249319369-e681b315-3d8e-455b-902f-03a85fc2c86b.gif)|
 
 |게시글 삭제|게시글 신고|댓글 기능|
 |:---:|:---:|:---:|
-|![최종_게시글삭제_AdobeExpress](https://user-images.githubusercontent.com/57481378/210288137-29085249-0191-4ff7-ab46-1c3079fe3624.gif)|![최종_게시글신고_AdobeExpress](https://user-images.githubusercontent.com/57481378/210288330-5e7e9d28-2c5d-47aa-bd81-efda2617db7e.gif)|![최종_게시물댓글_AdobeExpress](https://user-images.githubusercontent.com/57481378/210288152-1ba95b70-085d-491d-9d06-b547d996ecea.gif)|
+|![최종_게시글삭제](https://user-images.githubusercontent.com/87430624/249319358-dafecbbe-5831-4d28-9f3b-a7eb9f160773.gif)|![최종_게시글신고](https://user-images.githubusercontent.com/87430624/249319402-34811ede-f741-4b54-99b1-1a5f16b087f8.gif)|![최종_게시물댓글](https://user-images.githubusercontent.com/87430624/249319399-5c240e21-ba0d-4df6-860f-28ace1eaf949.gif)|
 
 ### 4) 프로필
 |마이 프로필 페이지|유어 프로필 페이지|리스트형/앨범형 보기|
@@ -577,19 +577,19 @@ prettier: 2.8.8
 
 |프로필 수정 페이지|팔로워/팔로잉 페이지|로그아웃 기능|
 |:---:|:---:|:---:|
-|![프로필 수정](https://user-images.githubusercontent.com/112460383/210291099-c25c451b-2427-49ba-b956-e21016e9568e.gif)|![팔로우페이지](https://user-images.githubusercontent.com/105365737/210326712-4e6f0b35-e39a-4b67-83be-1aacd76806e8.gif)|![로그아웃](https://user-images.githubusercontent.com/105365737/210326565-7d532cb8-ba35-48d4-aea2-301f89e059ae.gif)|
+|![프로필 수정](https://user-images.githubusercontent.com/112460383/210291099-c25c451b-2427-49ba-b956-e21016e9568e.gif)|![팔로우페이지](https://user-images.githubusercontent.com/87430624/249319422-38a0c159-2dcb-43f3-bf98-1ca0aff1ea5f.gif)|![로그아웃](https://user-images.githubusercontent.com/105365737/210326565-7d532cb8-ba35-48d4-aea2-301f89e059ae.gif)|
 
 
 ### 5) 판매 상품
 |상품 등록 페이지 & 상품 링크 이동|상품 수정 페이지|상품 삭제 페이지|
 |---|---|---|
-|![상품 등록 및 판매 사이트 이동](https://user-images.githubusercontent.com/112460383/210291185-868d040b-cde2-41aa-85f6-3dbf8e5485d8.gif)|![상품 수정](https://user-images.githubusercontent.com/112460383/210291199-9d66c24f-f987-44d5-9640-532c25a8df65.gif)|![상품 삭제](https://user-images.githubusercontent.com/112460383/210291207-d8f397c2-ca25-4172-a48f-12899fbabde4.gif)|
+|![상품 등록](https://user-images.githubusercontent.com/87430624/249319407-d702a7b8-a95e-47be-91d6-2f5d2fbbdf61.gif)|![상품 수정](https://user-images.githubusercontent.com/87430624/249319414-51176a23-ea3e-4340-8c15-68f375b389c7.gif)|![상품 삭제](https://user-images.githubusercontent.com/87430624/249319410-014593a9-5c4c-4788-8e91-862b500d7d5c.gif)|
 
 ### 6) 집사생활
 |집사생활 메인 페이지|산책 난이도 페이지|동물병원 페이지|
 |---|---|---|
 |![메인](https://user-images.githubusercontent.com/105365737/210323985-41e486ed-afb0-41a4-a37f-be300894360a.gif)|![산책 난이도 메인](https://user-images.githubusercontent.com/105365737/210324801-30095b20-6a74-43f6-940a-4170197db760.gif)|![동물병원](https://user-images.githubusercontent.com/105365737/210325566-58991115-4e9e-489e-9706-9b4290ef72bc.gif)|
-
+https://user-images.githubusercontent.com/87430624/249319394-1e08b191-b99c-4bfe-adcc-9940830c2ab7.gif
 
 <br/>
 
