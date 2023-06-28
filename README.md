@@ -31,7 +31,132 @@
 
 ## 2.👩‍🎨 24시간이 모자라조 팀원 소개
 
-|                                    **FE 강윤정**                                    |                                    **FE 남종태**                                    |  발 : 2023-06-24 ~ 2023-06-27</b></summary>
+|                                    **FE 강윤정**                                    |                                    **FE 남종태**                                    |                                 **FE 안나별**                                 |                                    **FE 양서진**                                    |
+| :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/99867931?s=400&u=1e9c7a794ce8df24a05c14b73f203b8c4de4be67&v=4" height=180 width=180> | <img src="https://github.com/24-gitTest/demo-repository/assets/113427991/242623d8-5f66-4c78-948e-f2bb6a52944d" height=180 width=180> | <img src="https://user-images.githubusercontent.com/87430624/249470074-e6686e84-6e70-410b-bf06-06a33ed2e566.jpg" height=180 width=180> | <img src="https://github.com/24-gitTest/demo-repository/assets/47853679/97ee236d-8dca-4896-a93b-52951fdd7198" height=180 width=180> |
+|                        [🔗 GitHub](https://github.com/Yunjung324)<br/> 디자인 리더                         |                        [🔗 GitHub](https://github.com/MAIN6419)<br/> 개발 리더                         |           [🔗 GitHub](https://github.com/an1413)<br/> 팀장          |                        [🔗 GitHub](https://github.com/zkdk1241)<br/>노션/정리 책임                         |
+
+
+<br/>
+
+<p align="right"><a href="#top">(Top)</a></p>
+
+<br/>
+
+## 3.🛠️ 개발 환경 및 기술 스택
+### 3-1. 개발 환경
+- IDE : Visual Studio Code 1.74.2
+- OS : Windows 10
+
+|구분|설명|
+|:------:|---|
+|FrontEnd|<img src="https://img.shields.io/badge/styledcomponents-CC6699?style=for-the-badge&logo=styledcomponents&logoColor=white"> <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=white"> <img src="https://img.shields.io/badge/Lodash-F03000?style=for-the-badge&logo=Lodash&logoColor=white"> <img src="https://img.shields.io/badge/Axios-D571FF?style=for-the-badge&logo=Axios&logoColor=white"> <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-0062EC?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
+|BackEnd|제공된 API 사용|
+|협업 도구|<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white"> <img src="https://img.shields.io/badge/Notion-DBDBDB?style=for-the-badge&logo=Notion&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-D535353?style=for-the-badge&logo=Figma&logoColor=white"/> |
+|IDE| <img src="https://img.shields.io/badge/vscode-3CA5EA?style=for-the-badge&logo=vscode&logoColor=white">|
+
+### 3-2. 링크
+- 버전 관리 : Git, <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket'>GitHub</a>
+- 진행 상황 관리(칸반 보드) : <a href='https://github.com/orgs/FRONTENDSCHOOL5/projects/17'>GitHub Projects</a>
+- 이슈 관리 : <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/issues'>GitHub Issues</a>
+- 문서 관리 : <a href='https://www.notion.so/24-PROJECT-3f266a7761914110850c5c06011f7d9c'>Notion</a>
+- 디자인 협업 : <a href='https://www.figma.com/file/caUCKc1ySPdwlBg1goXXnM/%EC%88%98%EC%88%98%EB%A7%88%EC%BC%93?type=design&node-id=1-623&t=XWF2qgp9aAPiQpiN-0'>Figma</a>
+- 메신저 : Discord
+
+### 3-3 Version
+```
+react: ^18.2.0
+react-router-dom: ^6.12.1
+axios: ^1.4.0
+styled-components: ^5.3.11
+styled-reset: ^4.4.7
+react-device-detect: ^2.2.3
+lodash: ^4.17.21
+prettier: 2.8.8
+```
+
+<p align="right"><a href="#top">(Top)</a></p>
+
+<br/>
+
+## 4.🗓️ 개발 일정
+#### 🔥 2023-06-02 ~ 2023-06-27
+![image](https://github.com/24-gitTest/demo-repository/assets/87430624/4e0c7d4c-59b8-42d7-9f04-64b9b9a66b97)
+<details>
+  <summary><b>팀 미팅, 프로젝트 계획 : 2023-06-02 ~ 2023-06-05</b></summary>
+  <div markdown="1">
+    <ul>
+     <li>아이스 브레이킹</li>
+     <li>프로젝트 주제 토의</li>
+     <li>사용 기술 스택정하기</li>
+     <li>개인 공부</li>
+     <li>깃&깃헙 전략 이해</li>
+    </ul>
+  </div>
+</details>
+<details>
+  <summary><b>컨벤션 및 api학습을 위한 사전과제(날씨앱) 진행 : 2023-06-08 ~ 2023-06-11</b></summary>
+  <div markdown="1">
+   사전과제(날씨앱)을 함으로써 얻었던 이점
+    기대효과 프로젝트에 사용되는 기능을 미리 사용해봄으로써 직후 1차 기능 구현할 때 도움이 됨 <br>
+    코드 컨벤션 연습 <br>
+    API 비동기 이해 <br>
+    styled-component 학습 <br>
+    날씨앱 레포지토리 https://github.com/24-test-project/weatherapp
+  </div>
+</details>
+<details>
+  <summary><b>요구사항 파악 및 프로젝트 규칙 설립 : 2023-06-08 ~ 2023-06-12</b></summary>
+  <div markdown="1">
+    <ul>
+     <li>팀 규칙</li>
+     <li>기획, 디자인</li>
+     <li>prettier 설정</li>
+     <li>코드 컨벤션 설정</li>
+     <li>git 컨벤션 설정</li>
+     <li>폴더 구조</li>
+     <li>공통 컴포넌트 지정</li>
+     <li>GlobalStyle 설정</li>
+    </ul>
+  </div>
+</details>
+<details>
+  <summary><b>공통UI 컴포넌트 개발 : 2023-06-12 ~ 2023-06-14</b></summary>
+  <div markdown="1">
+    <ul>
+     함께 같이 만들었던 것
+     <li>에러 메시지</li>
+     <li>스플래시 화면 개발</li>
+     <li>로그인 시작 페이지 개발</li>
+    </ul>
+  </div>
+</details>
+<details>
+  <summary><b>1차 개발 : 2023-06-14 ~ 2023-06-19</b></summary>
+  <div markdown="1">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/87430624/249535797-acf0a71a-2645-4469-83fb-38a1ab6fd39c.png"/>
+
+  </div>
+</details>
+<details>
+  <summary><b>2차 개발 : 2023-06-19 ~ 2023-06-24</b></summary>
+  <div markdown="1">
+
+<img src="https://github.com/24-gitTest/demo-repository/assets/87430624/3beb9c15-3633-489f-af1d-efd5c7ee1c8d"/>
+
+   팔로우 좋아요 게시물작성(3개까지) 캔버스 댓글
+  </div>
+</details>
+<details>
+  <summary><b>버그 수정 및 유지보수 : 2023-06-24 ~ 2023-06-27</b></summary>
+  <div markdown="1">
+   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/33db4bf8-b0dd-4f5e-8d0e-d23a1e2bd0d7"/>
+   <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/0df4e7f1-b267-4aa5-a130-a3f270ef075d"/>
+"
+  </div>
+</details>
+<details>
+  <summary><b>버그 수정 및 유지보수 : 2023-06-24 ~ 2023-06-27</b></summary>
   <div markdown="1">
    <img src="https://github.com/24-gitTest/demo-repository/assets/87430624/6a7fad2a-263b-4b14-9d71-64e037120df0"/>"
   </div>
