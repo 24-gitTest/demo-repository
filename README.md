@@ -1,5 +1,6 @@
 # <span id='top'> 수수마켓</span>
-<img src="https://user-images.githubusercontent.com/105365737/210221033-fe61128b-b5eb-4da2-97ca-7e9d162baad2.png" width="1000" />
+<img src="https://user-images.githubusercontent.com/87430624/249447353-0b92eb21-66fe-45c2-a542-24cb614e2962.png" width="1000" />
+<img src="https://user-images.githubusercontent.com/87430624/249447535-a7dc19ae-5ac2-461e-b179-ab402eaaf728.png" width="1000" />
 
 > 📎 <a href='#'>배포 URL</a> <br/>
 > 
@@ -48,12 +49,7 @@
 |BackEnd|제공된 API 사용|
 |협업 도구|<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white"> <img src="https://img.shields.io/badge/Notion-DBDBDB?style=for-the-badge&logo=Notion&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-D535353?style=for-the-badge&logo=Figma&logoColor=white"/> |
 
-
-### 3-2. 기술 스택
-- FE : React v18, Styled-components v5, Axios v1.4.0
-- BE : 제공된 API 사용
-
-### 3-3. 링크
+### 3-2. 링크
 - 버전 관리 : Git, <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket'>GitHub</a>
 - 진행 상황 관리(칸반 보드) : <a href='https://github.com/orgs/FRONTENDSCHOOL5/projects/17'>GitHub Projects</a>
 - 이슈 관리 : <a href='https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/issues'>GitHub Issues</a>
@@ -61,7 +57,7 @@
 - 디자인 협업 : <a href='https://www.figma.com/file/caUCKc1ySPdwlBg1goXXnM/%EC%88%98%EC%88%98%EB%A7%88%EC%BC%93?type=design&node-id=1-623&t=XWF2qgp9aAPiQpiN-0'>Figma</a>
 - 메신저 : Discord
 
-### 3-4 Version
+### 3-3 Version
 ```
 react: ^18.2.0
 react-router-dom: ^6.12.1
