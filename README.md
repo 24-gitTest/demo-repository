@@ -30,11 +30,12 @@
 
 <br/>
 
+
 ## 2. 팀원 소개
 
 |                                    **FE 강윤정**                                    |                                    **FE 남종태**                                    |                                 **FE 안나별**                                 |                                    **FE 양서진**                                    |
 | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
-| <img src="" height=180 width=180> | <img src="" height=180 width=180> | <img src="https://user-images.githubusercontent.com/87430624/249203418-7a4dcfe4-73cd-43ea-b165-da70ce210463.png" height=180 width=180> | <img src="https://github.com/24-gitTest/demo-repository/assets/47853679/97ee236d-8dca-4896-a93b-52951fdd7198" height=180 width=180> |
+| <img src="" height=180 width=180> | <img src="" height=180 width=180> | <img src="https://github.com/24-gitTest/demo-repository/assets/113427991/611a778e-8d5d-4388-ae15-8a7229a11094" height=180 width=180> | <img src="https://github.com/24-gitTest/demo-repository/assets/47853679/97ee236d-8dca-4896-a93b-52951fdd7198" height=180 width=180> |
 |                        [🔗 GitHub](https://github.com/Yunjung324)<br/> 디자인 리더                         |                        [🔗 GitHub](https://github.com/MAIN6419)<br/> 개발 리더                         |           [🔗 GitHub](https://github.com/an1413)<br/> 팀장          |                        [🔗 GitHub](https://github.com/zkdk1241)<br/>노션/정리 책임                         |
 
 
