@@ -593,6 +593,146 @@ prettier: 2.8.8
 
 ## 11. 핵심 기능 및 코드 설명
 
+### 1 ) CustomAxios
+- CustomAxios : axios를 커스텀 하여 반복되어 들어가는 헤더 값과 baseUrl를 미리 설정해 두어 사용할 시 따로 헤더와 baseUrl를 따로 설정 할 필요없기 때문에 편리하게 사용할 수 있고, 코드가 단축된다는 장점이 있습니다.
+- 구현 후 문제점: 구현후 최초 로그인시 새로고침을 하지 않으면 customAxios의 accessToken 값이 바뀌지 않는 이슈 발생
+- axios의 interceptors.requset.use를 통해 해결 => axios 요청과 응답에 대한 전/후 처리와 오류 처리가 가능
+- config 인자를 통해 axios 설정 가능 => config.headers.Authorization로 accessToken 설정
+
+```javascript
+import axios from "axios";
+
+export const customAxios = axios.create({
+  baseURL: process.env.REACT_APP_BASE_URL,
+  headers: {   
+    "Content-Type": "application/json", // default 값
+  },
+});
+
+// axios 요청전 토큰을 불러와서 적용시켜줌
+// 초기 로그인시 customAxios가 호출됨 이때는 token 값 없이 customAxios가 설정됨 
+// 이후 새로고침을 하지않으면 customAxios 설정은 바뀌지 않고 token값이 없이 실행되게됨
+// 이를 수정하려고 아래와 같은 로직 사용
+// customAxios에서 api 요청전 실행되는 함수로 매 API 호출전 accessToken를 새로 초기화 해주도록 처리
+// https://velog.io/@liankim/customizing-axios 관련 레퍼런스
+customAxios.interceptors.request.use(
+  (config) => {
+// config에는 axios요청시 입력한 config가 들어있습니다.
+    const accessToken = localStorage.getItem("accessToken");
+    config.headers.Authorization = accessToken
+      ? `Bearer ${accessToken}`
+      : "";
+
+    return config;
+  },
+  (error) => {
+    console.log(error);
+    return Promise.reject(error);
+  },
+);
+```
+<br/>
+
+### 2 ) loadsh 라이브러리 debunce 기능을 이용한 검색 최적화
+- 기존 검색시 onChange 이벤트에서 input의 변화가 감지될 때 마다 API요청이 발생하여 불필요한 API 요청이 발생합니다.
+- debounce => 일정 시간이 경과한 이후 onChange 이벤트를 한 번만 호출하게 하여 불필요한 호출을 막아줍니다.
+- 검색시 설정한 시간 동안 입력이 없다면 그때 이벤트를 호출합니다.
+- lodash debounce는 첫 번째 인자로 실행할 함수, 두 번째 인자로 시간을 받습니다.
+```javacript
+// debounce패턴 적용한 유저 검색 함수
+ const handleSearch = useCallback(
+    debounce(async (value) => {
+      try {
+        const response = await customAxios.get(
+          `/user/searchuser/?keyword=${value}`,
+        );
+        setUserList(response.data);
+      } catch (error) {
+        console.error(error);
+      }
+    }, 500), // 500ms 동안 입력이 없다면 함수실행
+    [],
+  );
+```
+- 구현 화면
+  - debunce 적용 전
+  
+  ![디바운싱적용전](https://github.com/MAIN6419/timer/assets/113427991/2292d28b-8b47-46af-9013-95718f3c9775)
+
+  - debunce 적용 후
+  
+  ![디바운싱적용후](https://github.com/MAIN6419/timer/assets/113427991/2dd71749-48c8-4e3b-9c5f-989359d066dc)
+
+<br/>
+
+### 3 ) 예외처리
+
+- 게시물, 상품 페이지 에서 존재하지 않는 게시물 페이지로 접속시 자신의 accountname가 작성자의 accountname이 다르면
+  조건부 렌더링을 통해 다른 UI를 보여주었습니다.
+- 프로필 편집, 게시물 수정, 상품 수정 페이지에서 작성자가 아니라면 페이지에 접속하지 못하도록 제한하였습니다.
+- 프로필 수정 시 수정사항이 없을 때 수정이 되지 않도록 막아 필요없는 API요청을 막습니다.
+  
+- 구현 화면
+  - 존재하지 않는 게시물에 접속하는 경우
+    
+  ![게시물 페이지 제한](https://github.com/MAIN6419/timer/assets/113427991/066fa45b-c3e1-4550-9c12-60c6f2ceb583)
+
+  - 다른 유저의 게시물 수정 페이지에 접속하는 경우
+    
+  ![게시물 편집 이동 제한](https://github.com/MAIN6419/timer/assets/113427991/2c80982b-c18a-4274-b82f-776b34890739)
+
+  - 다른 유저 프로필 수정 페이지에 접속하는 경우
+    
+  ![다른 유저 프로필 수정 제한](https://github.com/MAIN6419/timer/assets/113427991/d383f3b2-aaca-4b06-b56d-62f975b304da)
+
+  - 프로필 변경 사항이 없는 경우
+
+  ![프로필 이미지 수정 사항이 없는 경우](https://github.com/MAIN6419/timer/assets/113427991/a9a60cb3-986b-429b-9a4a-1bfa82514f68)
+
+    
+<br/>
+
+### 4 ) img Validation
+- imgValidation 함수를 만들어서 이미지 사용 페이지에 공통으로 사용 가능하도록 적용하였습니다.
+- imgValidation을 함수로 만들어서 코드 중복사용을 피하고 imgValidation 하나로 통일하였습니다.
+- 이미지 파일이 없거나 API에서 제공하는 이미지 형식이 아니거나 크기가 초과한다면 이미지를 올리지 못하도록 제한하고, 경고창이 출력되도록 하였습니다.
+``` javascript
+export const imgValidation = (file) => {
+  // 파일 확인
+  if (!file) {
+    return false;
+  }
+  // 파일 사이즈 확인
+  if (file.size > 1024 * 1024 * 10) {
+    alert("이미지 파일의 크기를 초과하였습니다.(최대 10MB)");
+    return false;
+  }
+  // 이미지 지원 형식 확인
+  if (
+    !file.name.includes("png") &&
+    !file.name.includes("jpg") &&
+    !file.name.includes("jpeg") &&
+    !file.name.includes("bmp") &&
+    !file.name.includes("tif") &&
+    !file.name.includes("heic") &&
+    !file.name.includes("gif")
+  ) {
+    alert(
+      "이미지 형식을 확인해 주세요!\n(지원형식 : .jpg,.gif, .png,.jpeg, .bmp,.tif, *.heic)"
+    );
+    return false;
+  }
+  // 모두 만족 한다면 true 반환
+  return true;
+};
+
+```
+- 구현 화면
+  - 프로필 이미지 변경에 imgValidation 적용
+    
+  ![imgvalidation](https://github.com/MAIN6419/timer/assets/113427991/c8326411-33c6-4235-a772-282f671cf6c0)
+
+<br/>
  
 
 ## 12. 느낀점
