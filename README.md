@@ -411,7 +411,8 @@ prettier: 2.8.8
 ## 10.🖥️ 핵심 기능 및 코드 설명
 
 ### 1 ) CustomAxios
-- CustomAxios : axios를 커스텀 하여 반복되어 들어가는 헤더 값과 baseUrl를 미리 설정해 두어 사용할 시 따로 헤더와 baseUrl를 따로 설정 할 필요없기 때문에 편리하게 사용할 수 있고, 코드가 단축된다는 장점이 있습니다.
+- CustomAxios : axios를 커스텀 하여 반복되어 들어가는 헤더 값과 baseUrl를 설정하여 axios 사용 시 헤더값과 baseUrl를 생략하도록 하였습니다.
+- 이를 통해 코드를 단축 시킬수 있었고, 편리하게 axios를 사용할 수 있었습니다.
 ```javascript
 import axios from "axios";
 
